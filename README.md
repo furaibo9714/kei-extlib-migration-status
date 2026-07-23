@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-07-23 19:47:14 UTC*
-*Execution time: 6.24 seconds*
+*Last updated: 2026-07-23 20:32:28 UTC*
+*Execution time: 19.65 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -11,14 +11,14 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 
 ### Multisrc Themes (4)
 
-| Theme |
-| --- |
-| heancms |
-| hiper |
-| iken |
-| mangahub |
+| Theme | Extensions |
+| --- | --- |
+| heancms | <details><summary>2 extensions</summary>luascans (🇬🇧 en)<br>omegascans (🇬🇧 en)</details> |
+| hiper | <details><summary>3 extensions</summary>hiperdex (🇬🇧 en)<br>hipercool (🇧🇷 pt)<br>hipertoon (🇧🇷 pt)</details> |
+| iken | <details><summary>13 extensions</summary>azora (🇸🇦 ar)<br>arvenscans (🇬🇧 en)<br>hijalascans (🇬🇧 en)<br>infernalvoidscans (🇬🇧 en)<br>kaynscans (🇬🇧 en)<br>kenscans (🇬🇧 en)<br>magusmanga (🇬🇧 en)<br>nyxscans (🇬🇧 en)<br>orionscans (🇬🇧 en)<br>renascans (🇬🇧 en)<br>sanascans (🇬🇧 en)<br>vanillascans (🇬🇧 en)<br>eternalmangas (🇪🇸 es)</details> |
+| mangahub | <details><summary>11 extensions</summary>mangafoxfun (🇬🇧 en)<br>mangahereonl (🇬🇧 en)<br>mangahubio (🇬🇧 en)<br>mangakakalotfun (🇬🇧 en)<br>manganel (🇬🇧 en)<br>mangaonlinefun (🇬🇧 en)<br>mangapandaonl (🇬🇧 en)<br>mangareadersite (🇬🇧 en)<br>mangatoday (🇬🇧 en)<br>onemangaco (🇬🇧 en)<br>onemangainfo (🇬🇧 en)</details> |
 
-### Standalone Extensions (97)
+### Standalone Extensions (68)
 
 | Extension | Language |
 | --- | --- |
@@ -29,57 +29,28 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | misskon | 🌐 all |
 | onisaga | 🌐 all |
 | pawchive | 🌐 all |
-| azora | 🇸🇦 ar |
 | mangacloud | 🇸🇦 ar |
 | mangadar | 🇸🇦 ar |
 | mangaswat | 🇸🇦 ar |
 | stellarsaber | 🇸🇦 ar |
 | teamx | 🇸🇦 ar |
 | allanime | 🇬🇧 en |
-| arvenscans | 🇬🇧 en |
 | asurascans | 🇬🇧 en |
 | batcave | 🇬🇧 en |
-| hijalascans | 🇬🇧 en |
-| hiperdex | 🇬🇧 en |
-| infernalvoidscans | 🇬🇧 en |
-| kaynscans | 🇬🇧 en |
-| kenscans | 🇬🇧 en |
 | kmanga | 🇬🇧 en |
-| luascans | 🇬🇧 en |
-| magusmanga | 🇬🇧 en |
 | mangadotnet | 🇬🇧 en |
-| mangafoxfun | 🇬🇧 en |
-| mangahereonl | 🇬🇧 en |
-| mangahubio | 🇬🇧 en |
-| mangakakalotfun | 🇬🇧 en |
 | mangalix | 🇬🇧 en |
-| manganel | 🇬🇧 en |
-| mangaonlinefun | 🇬🇧 en |
-| mangapandaonl | 🇬🇧 en |
-| mangareadersite | 🇬🇧 en |
-| mangatoday | 🇬🇧 en |
-| nyxscans | 🇬🇧 en |
-| omegascans | 🇬🇧 en |
-| onemangaco | 🇬🇧 en |
-| onemangainfo | 🇬🇧 en |
-| orionscans | 🇬🇧 en |
-| renascans | 🇬🇧 en |
-| sanascans | 🇬🇧 en |
-| vanillascans | 🇬🇧 en |
 | webdexscans | 🇬🇧 en |
 | webnovel | 🇬🇧 en |
 | weebcentral | 🇬🇧 en |
 | xlecx | 🇬🇧 en |
 | xomanga | 🇬🇧 en |
 | yaoihot | 🇬🇧 en |
-| eternalmangas | 🇪🇸 es |
 | bookwalkerjp | 🇯🇵 ja |
 | mangafive | 🇯🇵 ja |
 | pixivcomic | 🇯🇵 ja |
 | argoscomics | 🇧🇷 pt |
 | egotoons | 🇧🇷 pt |
-| hipercool | 🇧🇷 pt |
-| hipertoon | 🇧🇷 pt |
 | horahentai | 🇧🇷 pt |
 | mangeek | 🇧🇷 pt |
 | onereader | 🇧🇷 pt |
@@ -124,155 +95,122 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 
 ### Multisrc Themes (57)
 
-| Theme |
-| --- |
-| bakkin |
-| clipstudioreader |
-| colorlibanime |
-| comiciviewer |
-| eromuse |
-| ezmanhwa |
-| fansubscat |
-| fmreader |
-| foolslide |
-| fuzzydoodle |
-| galleryadults |
-| gattsu |
-| gigaviewer |
-| goda |
-| greenshit |
-| grouple |
-| guya |
-| hentaihand |
-| initmanga |
-| kemono |
-| keyoapp |
-| libgroup |
-| liliana |
-| madara |
-| madtheme |
-| manga18 |
-| mangabox |
-| mangacatalog |
-| mangadventure |
-| mangareader |
-| mangataro |
-| mangathemesia |
-| mangawork |
-| mangaworld |
-| mangotheme |
-| manhwaz |
-| masonry |
-| mccms |
-| mmlook |
-| mmrcms |
-| monochrome |
-| moonlighttl |
-| multichan |
-| natsuid |
-| oceanwp |
-| pam |
-| pizzareader |
-| scanreader |
-| senkuro |
-| sinmh |
-| spicytheme |
-| stalkercms |
-| uzaymanga |
-| vercomics |
-| wpcomics |
-| zeistmanga |
-| zmanga |
+| Theme | Extensions |
+| --- | --- |
+| bakkin | <details><summary>2 extensions</summary>bakkin (🇬🇧 en)<br>bakkinselfhosted (🇬🇧 en)</details> |
+| clipstudioreader | <details><summary>2 extensions</summary>comicfesta (🇯🇵 ja)<br>firecross (🇯🇵 ja)</details> |
+| colorlibanime | <details><summary>2 extensions</summary>komikzoid (🇮🇩 id)<br>sektekomik (🇮🇩 id)</details> |
+| comiciviewer | <details><summary>16 extensions</summary>comicgrowl (🌐 all)<br>bigcomics (🇯🇵 ja)<br>comicmedu (🇯🇵 ja)<br>comicpash (🇯🇵 ja)<br>comicride (🇯🇵 ja)<br>hanayume (🇯🇵 ja)<br>herosweb (🇯🇵 ja)<br>jnbooks (🇯🇵 ja)<br>kimicomi (🇯🇵 ja)<br>magkan (🇯🇵 ja)<br>mangabang (🇯🇵 ja)<br>mangacross (🇯🇵 ja)<br>rimacomiplus (🇯🇵 ja)<br>takecomic (🇯🇵 ja)<br>younganimal (🇯🇵 ja)<br>youngchampion (🇯🇵 ja)</details> |
+| eromuse | <details><summary>2 extensions</summary>eightmuses (🇬🇧 en)<br>erofus (🇬🇧 en)</details> |
+| ezmanhwa | <details><summary>2 extensions</summary>ezmanga (🇬🇧 en)<br>qiscans (🇬🇧 en)</details> |
+| fansubscat | <details><summary>2 extensions</summary>fansubscat (🇦🇩 ca)<br>fansubscathentai (🇦🇩 ca)</details> |
+| fmreader | <details><summary>4 extensions</summary>mangagun (🇯🇵 ja)<br>rawinu (🇯🇵 ja)<br>rawlh (🇯🇵 ja)<br>welovemangaone (🇯🇵 ja)</details> |
+| foolslide | <details><summary>7 extensions</summary>foolslidecustomizable (🌐 all)<br>deathtollscans (🇬🇧 en)<br>mangatellers (🇬🇧 en)<br>lolivault (🇪🇸 es)<br>menudofansub (🇪🇸 es)<br>juinjutsuteamreader (🇮🇹 it)<br>nifteam (🇮🇹 it)</details> |
+| fuzzydoodle | <details><summary>2 extensions</summary>hentaislayer (🇸🇦 ar)<br>lelscanvf (🇫🇷 fr)</details> |
+| galleryadults | <details><summary>8 extensions</summary>asmhentai (🌐 all)<br>hentaienvy (🌐 all)<br>hentaiera (🌐 all)<br>hentaifox (🌐 all)<br>hentairox (🌐 all)<br>hentaizap (🌐 all)<br>imhentai (🌐 all)<br>nhentaixxx (🌐 all)</details> |
+| gattsu | <details><summary>3 extensions</summary>hentaiseason (🇧🇷 pt)<br>hentaitokyo (🇧🇷 pt)<br>universohentai (🇧🇷 pt)</details> |
+| gigaviewer | <details><summary>13 extensions</summary>comicborder (🇯🇵 ja)<br>comicdays (🇯🇵 ja)<br>comicearthstar (🇯🇵 ja)<br>comicgardo (🇯🇵 ja)<br>comicyours (🇯🇵 ja)<br>comiplex (🇯🇵 ja)<br>ichicomi (🇯🇵 ja)<br>kuragebunch (🇯🇵 ja)<br>magcomi (🇯🇵 ja)<br>shonenjumpplus (🇯🇵 ja)<br>sundaywebevery (🇯🇵 ja)<br>tonarinoyoungjump (🇯🇵 ja)<br>zenon (🇯🇵 ja)</details> |
+| goda | <details><summary>3 extensions</summary>goda (🇬🇧 en)<br>baozimhorg (🇨🇳 zh)<br>eighteenmanhua (🇨🇳 zh)</details> |
+| greenshit | <details><summary>3 extensions</summary>maidscan (🇧🇷 pt)<br>vegitoons (🇧🇷 pt)<br>verdinha (🇧🇷 pt)</details> |
+| grouple | <details><summary>7 extensions</summary>allhentai (🇷🇺 ru)<br>mintmanga (🇷🇺 ru)<br>readmanga (🇷🇺 ru)<br>rumix (🇷🇺 ru)<br>seimanga (🇷🇺 ru)<br>selfmanga (🇷🇺 ru)<br>usagi (🇷🇺 ru)</details> |
+| guya | <details><summary>4 extensions</summary>magicaltranslators (🌐 all)<br>dankefurslesen (🇬🇧 en)<br>guya (🇬🇧 en)<br>hachirumi (🇬🇧 en)</details> |
+| hentaihand | <details><summary>2 extensions</summary>hentaihand (🌐 all)<br>nhentaicom (🌐 all)</details> |
+| initmanga | <details><summary>5 extensions</summary>korelimanga (🇹🇷 tr)<br>merlinscans (🇹🇷 tr)<br>paradoxscans (🇹🇷 tr)<br>ragnarscans (🇹🇷 tr)<br>siyahmelek (🇹🇷 tr)</details> |
+| kemono | <details><summary>2 extensions</summary>coomer (🌐 all)<br>kemono (🌐 all)</details> |
+| keyoapp | <details><summary>19 extensions</summary>artlapsa (🇬🇧 en)<br>asmotoon (🇬🇧 en)<br>erisscans (🇬🇧 en)<br>grimscans (🇬🇧 en)<br>kaizenscan (🇬🇧 en)<br>kewnscans (🇬🇧 en)<br>lunatoons (🇬🇧 en)<br>meitoon (🇬🇧 en)<br>mistscans (🇬🇧 en)<br>nyanukafe (🇬🇧 en)<br>nyrascans (🇬🇧 en)<br>paradisescans (🇬🇧 en)<br>ritharscans (🇬🇧 en)<br>ryumanga (🇬🇧 en)<br>sirenscans (🇬🇧 en)<br>suryascans (🇬🇧 en)<br>timelesstoons (🇬🇧 en)<br>writerscans (🇬🇧 en)<br>sirenscansfr (🇫🇷 fr)</details> |
+| libgroup | <details><summary>3 extensions</summary>hentailib (🇷🇺 ru)<br>mangalib (🇷🇺 ru)<br>yaoilib (🇷🇺 ru)</details> |
+| liliana | <details><summary>4 extensions</summary>manhuaplusorg (🇬🇧 en)<br>dokiraw (🇯🇵 ja)<br>raw1001 (🇯🇵 ja)<br>doctruyen5s (🇻🇳 vi)</details> |
+| madara | <details><summary>295 extensions</summary>allporncomicsco (🌐 all)<br>comicsvalley (🌐 all)<br>grabberzone (🌐 all)<br>kodokustudio (🌐 all)<br>mangacrazy (🌐 all)<br>mangaforfree (🌐 all)<br>manhuarm (🌐 all)<br>manhwa18cc (🌐 all)<br>manhwaclubnet (🌐 all)<br>manhwadashraw (🌐 all)<br>seraphicdeviltry (🌐 all)<br>anyonemanga (🇸🇦 ar)<br>arabmanhwa (🇸🇦 ar)<br>arabtoons (🇸🇦 ar)<br>arbxcomix (🇸🇦 ar)<br>detectiveconanar (🇸🇦 ar)<br>empirewebtoon (🇸🇦 ar)<br>hizomanga (🇸🇦 ar)<br>manga3asq (🇸🇦 ar)<br>mangalek (🇸🇦 ar)<br>mangalink (🇸🇦 ar)<br>mangalionz (🇸🇦 ar)<br>mangaspark (🇸🇦 ar)<br>mangastarz (🇸🇦 ar)<br>mangatuk (🇸🇦 ar)<br>manhatic (🇸🇦 ar)<br>paradisebl (🇸🇦 ar)<br>rocksmanga (🇸🇦 ar)<br>yonabar (🇸🇦 ar)<br>allporncomic (🇬🇧 en)<br>allporncomicio (🇬🇧 en)<br>anisascans (🇬🇧 en)<br>apcomics (🇬🇧 en)<br>aquamanga (🇬🇧 en)<br>aryascans (🇬🇧 en)<br>battleinfivesecondsaftermeeting (🇬🇧 en)<br>boratscans (🇬🇧 en)<br>bunmanga (🇬🇧 en)<br>cocomic (🇬🇧 en)<br>coffeemanga (🇬🇧 en)<br>cucumbermanga (🇬🇧 en)<br>decadencescans (🇬🇧 en)<br>dragontea (🇬🇧 en)<br>ero18x (🇬🇧 en)<br>firescans (🇬🇧 en)<br>frierenonline (🇬🇧 en)<br>gakamangas (🇬🇧 en)<br>galaxydegenscans (🇬🇧 en)<br>gedecomix (🇬🇧 en)<br>gingertoon (🇬🇧 en)<br>gourmetscans (🇬🇧 en)<br>hentai4free (🇬🇧 en)<br>hentairead (🇬🇧 en)<br>hentaisco (🇬🇧 en)<br>hentaixcomic (🇬🇧 en)<br>hentaixdickgirl (🇬🇧 en)<br>hentaixyuri (🇬🇧 en)<br>hm2d (🇬🇧 en)<br>isekaiscantop (🇬🇧 en)<br>jinmangas (🇬🇧 en)<br>kissmangain (🇬🇧 en)<br>ksgroupscans (🇬🇧 en)<br>kunmangaonline (🇬🇧 en)<br>lhtranslation (🇬🇧 en)<br>likemangain (🇬🇧 en)<br>lilymanga (🇬🇧 en)<br>linkmanga (🇬🇧 en)<br>madaradex (🇬🇧 en)<br>mahouirexnohentaikarte (🇬🇧 en)<br>manga18free (🇬🇧 en)<br>manga18fx (🇬🇧 en)<br>manga18x (🇬🇧 en)<br>mangablaze (🇬🇧 en)<br>mangadass (🇬🇧 en)<br>mangadia (🇬🇧 en)<br>mangadistrict (🇬🇧 en)<br>mangadrama (🇬🇧 en)<br>mangaforfreecom (🇬🇧 en)<br>mangafree (🇬🇧 en)<br>mangagg (🇬🇧 en)<br>mangagofun (🇬🇧 en)<br>mangahe (🇬🇧 en)<br>mangaka (🇬🇧 en)<br>mangakiss (🇬🇧 en)<br>mangamaniacs (🇬🇧 en)<br>mangaowlio (🇬🇧 en)<br>mangareadorg (🇬🇧 en)<br>mangasushi (🇬🇧 en)<br>manhuafastnet (🇬🇧 en)<br>manhuahot (🇬🇧 en)<br>manhuanext (🇬🇧 en)<br>manhuaplus (🇬🇧 en)<br>manhuatop (🇬🇧 en)<br>manhuaus (🇬🇧 en)<br>manhuazonghe (🇬🇧 en)<br>manhwa18org (🇬🇧 en)<br>manhwa68 (🇬🇧 en)<br>manhwacomics (🇬🇧 en)<br>manhwaden (🇬🇧 en)<br>manhwaget (🇬🇧 en)<br>manhwamanhua (🇬🇧 en)<br>manhwanex (🇬🇧 en)<br>manhwareads (🇬🇧 en)<br>manhwatoon (🇬🇧 en)<br>manhwatop (🇬🇧 en)<br>milftoon (🇬🇧 en)<br>novel24h (🇬🇧 en)<br>novelcrow (🇬🇧 en)<br>octopusmanga (🇬🇧 en)<br>orchisasia (🇬🇧 en)<br>paritehaber (🇬🇧 en)<br>pawmanga (🇬🇧 en)<br>petrotechsociety (🇬🇧 en)<br>plutoscans (🇬🇧 en)<br>rdscans (🇬🇧 en)<br>rosesquadscans (🇬🇧 en)<br>s2manga (🇬🇧 en)<br>setsuscans (🇬🇧 en)<br>shibamanga (🇬🇧 en)<br>sleepytranslations (🇬🇧 en)<br>spmanhwa (🇬🇧 en)<br>toon18 (🇬🇧 en)<br>toongod (🇬🇧 en)<br>toonily (🇬🇧 en)<br>toonizy (🇬🇧 en)<br>topmanhua (🇬🇧 en)<br>topmanhuafan (🇬🇧 en)<br>topmanhuanet (🇬🇧 en)<br>tritiniascans (🇬🇧 en)<br>vyvymangaorg (🇬🇧 en)<br>wearehunger (🇬🇧 en)<br>webtoonscan (🇬🇧 en)<br>webtoonxyz (🇬🇧 en)<br>whalemanga (🇬🇧 en)<br>woopread (🇬🇧 en)<br>wuxiaworld (🇬🇧 en)<br>yakshacomics (🇬🇧 en)<br>yaoihub (🇬🇧 en)<br>yaoiscan (🇬🇧 en)<br>zazamanga (🇬🇧 en)<br>zinmanga (🇬🇧 en)<br>zinmanganet (🇬🇧 en)<br>apollcomics (🇪🇸 es)<br>barmanga (🇪🇸 es)<br>begatranslation (🇪🇸 es)<br>bibliopanda (🇪🇸 es)<br>catharsisworld (🇪🇸 es)<br>codexzero (🇪🇸 es)<br>doujinshell (🇪🇸 es)<br>dragontranslationorg (🇪🇸 es)<br>emperorscan (🇪🇸 es)<br>esmi2manga (🇪🇸 es)<br>gremorymangas (🇪🇸 es)<br>hadesnofansub (🇪🇸 es)<br>haremdekira (🇪🇸 es)<br>houseofotakus (🇪🇸 es)<br>infrafandub (🇪🇸 es)<br>inmortalscan (🇪🇸 es)<br>inventariooculto (🇪🇸 es)<br>kazokuden (🇪🇸 es)<br>lectormangalat (🇪🇸 es)<br>mangacrab (🇪🇸 es)<br>mangaromance (🇪🇸 es)<br>mangasnosekai (🇪🇸 es)<br>manhuaonline (🇪🇸 es)<br>manhwalatino (🇪🇸 es)<br>manhwaonline (🇪🇸 es)<br>marmota (🇪🇸 es)<br>mhscans (🇪🇸 es)<br>monopolyscan (🇪🇸 es)<br>mundomanhwa (🇪🇸 es)<br>noblessetranslations (🇪🇸 es)<br>ragnarokscanlation (🇪🇸 es)<br>richtoscan (🇪🇸 es)<br>swordofoblivion (🇪🇸 es)<br>taurusfansub (🇪🇸 es)<br>templescanesp (🇪🇸 es)<br>toones (🇪🇸 es)<br>topcomicporno (🇪🇸 es)<br>topcomicpornonet (🇪🇸 es)<br>vermanhwas (🇪🇸 es)<br>yurionline (🇪🇸 es)<br>bananascan (🇫🇷 fr)<br>hentaiorigines (🇫🇷 fr)<br>hentaiscantrad (🇫🇷 fr)<br>hentaizone (🇫🇷 fr)<br>histoiredhentai (🇫🇷 fr)<br>mangahubfr (🇫🇷 fr)<br>mangascantrad (🇫🇷 fr)<br>mangasoriginesfr (🇫🇷 fr)<br>pantheonscan (🇫🇷 fr)<br>scanhentaimenu (🇫🇷 fr)<br>toonfr (🇫🇷 fr)<br>holotoon (🇮🇩 id)<br>hwago (🇮🇩 id)<br>klikmanga (🇮🇩 id)<br>lumoskomik (🇮🇩 id)<br>mgkomik (🇮🇩 id)<br>otascans (🇮🇩 id)<br>pornhwa18 (🇮🇩 id)<br>siimanga (🇮🇩 id)<br>yubikiri (🇮🇩 id)<br>kmansin09 (🇯🇵 ja)<br>rawbaka (🇯🇵 ja)<br>rawdex (🇰🇷 ko)<br>acervohentai (🇧🇷 pt)<br>amuy (🇧🇷 pt)<br>arthurscan (🇧🇷 pt)<br>borutoexplorer (🇧🇷 pt)<br>cafecomyaoi (🇧🇷 pt)<br>cerisescans (🇧🇷 pt)<br>covenscan (🇧🇷 pt)<br>euphoriascan (🇧🇷 pt)<br>fenixproject (🇧🇷 pt)<br>fleurblanche (🇧🇷 pt)<br>flowermanga (🇧🇷 pt)<br>ghostscan (🇧🇷 pt)<br>hotcabaretscan (🇧🇷 pt)<br>huntersscans (🇧🇷 pt)<br>inkapk (🇧🇷 pt)<br>kamisamaexplorer (🇧🇷 pt)<br>leitordemangas (🇧🇷 pt)<br>lermangas (🇧🇷 pt)<br>littletyrant (🇧🇷 pt)<br>mangalivreto (🇧🇷 pt)<br>mangaonline (🇧🇷 pt)<br>mangasbrasuka (🇧🇷 pt)<br>minitwoscan (🇧🇷 pt)<br>montetai (🇧🇷 pt)<br>mrtenzus (🇧🇷 pt)<br>mugiwarasoficial (🇧🇷 pt)<br>nebulosascan (🇧🇷 pt)<br>ninjascan (🇧🇷 pt)<br>nocturnesummer (🇧🇷 pt)<br>noindexscan (🇧🇷 pt)<br>pinkseaunicorn (🇧🇷 pt)<br>portalyaoi (🇧🇷 pt)<br>tankouhentai (🇧🇷 pt)<br>tiamanhwa (🇧🇷 pt)<br>xxxyaoi (🇧🇷 pt)<br>yuriverso (🇧🇷 pt)<br>cat300 (🇹🇭 th)<br>catzaa (🇹🇭 th)<br>doodmanga (🇹🇭 th)<br>doujinlc (🇹🇭 th)<br>doujinza (🇹🇭 th)<br>mangaisekaithai (🇹🇭 th)<br>mangalc (🇹🇭 th)<br>manhuabug (🇹🇭 th)<br>manhuakey (🇹🇭 th)<br>manhuathai (🇹🇭 th)<br>manhwabreakup (🇹🇭 th)<br>anikiga (🇹🇷 tr)<br>araznovel (🇹🇷 tr)<br>asurascanstr (🇹🇷 tr)<br>caprazmanga (🇹🇷 tr)<br>diamondfansub (🇹🇷 tr)<br>domalfansub (🇹🇷 tr)<br>garciamanga (🇹🇷 tr)<br>ghosthentai (🇹🇷 tr)<br>hayalistic (🇹🇷 tr)<br>kabusmanga (🇹🇷 tr)<br>kuroimanga (🇹🇷 tr)<br>laviniafansub (🇹🇷 tr)<br>lunascans (🇹🇷 tr)<br>mangagezgini (🇹🇷 tr)<br>mangasehri (🇹🇷 tr)<br>mangasehrinet (🇹🇷 tr)<br>mangatilkisi (🇹🇷 tr)<br>mangawow (🇹🇷 tr)<br>mangawt (🇹🇷 tr)<br>mangazure (🇹🇷 tr)<br>milasub (🇹🇷 tr)<br>niverafansub (🇹🇷 tr)<br>opiatoon (🇹🇷 tr)<br>ruyamanga (🇹🇷 tr)<br>ruyamanganet (🇹🇷 tr)<br>strayfansub (🇹🇷 tr)<br>summertoon (🇹🇷 tr)<br>sunsetmanga (🇹🇷 tr)<br>tonizutoon (🇹🇷 tr)<br>tortugaceviri (🇹🇷 tr)<br>turkcemangaoku (🇹🇷 tr)<br>turkcemangaokutr (🇹🇷 tr)<br>webtoonhatti (🇹🇷 tr)<br>yaoibar (🇹🇷 tr)<br>yaoiflix (🇹🇷 tr)<br>yaoimangaoku (🇹🇷 tr)<br>gantzvn (🇻🇳 vi)<br>hentaicube (🇻🇳 vi)<br>hentaivnplus (🇻🇳 vi)<br>truyentranhdammy (🇻🇳 vi)<br>truyentuoitho (🇻🇳 vi)<br>truyenvn (🇻🇳 vi)<br>bakamh (🇨🇳 zh)</details> |
+| madtheme | <details><summary>4 extensions</summary>beehentai (🇬🇧 en)<br>kaliscancom (🇬🇧 en)<br>toonilyme (🇬🇧 en)<br>toonitube (🇬🇧 en)</details> |
+| manga18 | <details><summary>4 extensions</summary>eighteenporncomic (🇬🇧 en)<br>hentai3zcc (🇬🇧 en)<br>manga18club (🇬🇧 en)<br>hanman18 (🇨🇳 zh)</details> |
+| mangabox | <details><summary>3 extensions</summary>mangabat (🇬🇧 en)<br>mangakakalot (🇬🇧 en)<br>manganelo (🇬🇧 en)</details> |
+| mangacatalog | <details><summary>14 extensions</summary>readattackontitanshingekinokyojinmanga (🇬🇧 en)<br>readberserkmanga (🇬🇧 en)<br>readblackclovermangaonline (🇬🇧 en)<br>readbokunoheroacademiamyheroacademiamanga (🇬🇧 en)<br>readchainsawmanmangaonline (🇬🇧 en)<br>readfairytailedenszeromangaonline (🇬🇧 en)<br>readjujutsukaisenmangaonline (🇬🇧 en)<br>readkingdommangaonline (🇬🇧 en)<br>readnanatsunotaizai7deadlysinsmangaonline (🇬🇧 en)<br>readnarutoborutosamurai8mangaonline (🇬🇧 en)<br>readonepiecemangaonline (🇬🇧 en)<br>readonepunchmanmangaonlinetwo (🇬🇧 en)<br>readsololevelingmangamanhwaonline (🇬🇧 en)<br>readtokyoghoulretokyoghoulmangaonline (🇬🇧 en)</details> |
+| mangadventure | <details><summary>2 extensions</summary>arcrelight (🇬🇧 en)<br>assortedscans (🇬🇧 en)</details> |
+| mangareader | <details><summary>5 extensions</summary>manganow (🇬🇧 en)<br>jmanga (🇯🇵 ja)<br>klraw (🇯🇵 ja)<br>mangamura (🇯🇵 ja)<br>rawotaku (🇯🇵 ja)</details> |
+| mangataro | <details><summary>2 extensions</summary>mangataro (🌐 all)<br>roliascan (🇬🇧 en)</details> |
+| mangathemesia | <details><summary>145 extensions</summary>miauscan (🌐 all)<br>areamanga (🇸🇦 ar)<br>areascans (🇸🇦 ar)<br>despairmanga (🇸🇦 ar)<br>goonscans (🇸🇦 ar)<br>hijala (🇸🇦 ar)<br>lavascans (🇸🇦 ar)<br>evilproduction (🏳️ cs)<br>akazascans (🇬🇧 en)<br>arenascans (🇬🇧 en)<br>armageddon (🇬🇧 en)<br>athreascans (🇬🇧 en)<br>comicasura (🇬🇧 en)<br>comicsland (🇬🇧 en)<br>crowscans (🇬🇧 en)<br>culturedworks (🇬🇧 en)<br>drakescans (🇬🇧 en)<br>elftoon (🇬🇧 en)<br>erosscans (🇬🇧 en)<br>evascans (🇬🇧 en)<br>galaxymanga (🇬🇧 en)<br>hadesscans (🇬🇧 en)<br>hentaidex (🇬🇧 en)<br>kingofshojo (🇬🇧 en)<br>lagoonscans (🇬🇧 en)<br>madarascans (🇬🇧 en)<br>mangatrend (🇬🇧 en)<br>mangatx (🇬🇧 en)<br>manhuascanus (🇬🇧 en)<br>manhwalover (🇬🇧 en)<br>manhwax (🇬🇧 en)<br>nexcomic (🇬🇧 en)<br>nikatoons (🇬🇧 en)<br>noxenscans (🇬🇧 en)<br>pmscans (🇬🇧 en)<br>ragescans (🇬🇧 en)<br>ravenscans (🇬🇧 en)<br>razure (🇬🇧 en)<br>restscans (🇬🇧 en)<br>rizzcomic (🇬🇧 en)<br>rizzcomicunoriginal (🇬🇧 en)<br>rokaricomics (🇬🇧 en)<br>shojoscans (🇬🇧 en)<br>skymanga (🇬🇧 en)<br>thunderscans (🇬🇧 en)<br>witchscans (🇬🇧 en)<br>asialotus (🇪🇸 es)<br>bloomscans (🇪🇸 es)<br>bokugentranslation (🇪🇸 es)<br>bymichiscan (🇪🇸 es)<br>celestialmoon (🇪🇸 es)<br>cerberusseries (🇪🇸 es)<br>lunapieces (🇪🇸 es)<br>mangaesp (🇪🇸 es)<br>mangashiina (🇪🇸 es)<br>mangatv (🇪🇸 es)<br>nekoscans (🇪🇸 es)<br>novamanhwa (🇪🇸 es)<br>skymangas (🇪🇸 es)<br>uchuujinprojects (🇪🇸 es)<br>kiwiyascans (🇫🇷 fr)<br>lelmanga (🇫🇷 fr)<br>mangasscans (🇫🇷 fr)<br>pornhwafr (🇫🇷 fr)<br>sushiscan (🇫🇷 fr)<br>sushiscanfr (🇫🇷 fr)<br>yaoiscan (🇫🇷 fr)<br>Luvyaa (🇮🇩 id)<br>astralscans (🇮🇩 id)<br>dailysuka (🇮🇩 id)<br>dojingnet (🇮🇩 id)<br>doujinku (🇮🇩 id)<br>izanamiscans (🇮🇩 id)<br>kanzenin (🇮🇩 id)<br>komikav (🇮🇩 id)<br>komikdewasa (🇮🇩 id)<br>komikdewasaart (🇮🇩 id)<br>komikhwa (🇮🇩 id)<br>komikindo (🇮🇩 id)<br>komikindoco (🇮🇩 id)<br>komikstation (🇮🇩 id)<br>komiktap (🇮🇩 id)<br>komikucom (🇮🇩 id)<br>kumapoi (🇮🇩 id)<br>kumopoi (🇮🇩 id)<br>kuromanga (🇮🇩 id)<br>lianscans (🇮🇩 id)<br>mangacan (🇮🇩 id)<br>mangasusu (🇮🇩 id)<br>manhwadesu (🇮🇩 id)<br>manhwaindo (🇮🇩 id)<br>manhwalandmom (🇮🇩 id)<br>manhwalistid (🇮🇩 id)<br>manhwalistorg (🇮🇩 id)<br>mihentai (🇮🇩 id)<br>ngomik (🇮🇩 id)<br>noromax (🇮🇩 id)<br>omicaso (🇮🇩 id)<br>sasangeyou (🇮🇩 id)<br>sektedoujin (🇮🇩 id)<br>shirakami (🇮🇩 id)<br>soulscans (🇮🇩 id)<br>walpurgisscan (🇮🇹 it)<br>atemporal (🇧🇷 pt)<br>mangastop (🇧🇷 pt)<br>origamiorpheans (🇧🇷 pt)<br>pointzerotoons (🇧🇷 pt)<br>starlightscan (🇧🇷 pt)<br>tsundokutraducoes (🇧🇷 pt)<br>doujinmoon (🇹🇭 th)<br>ecchidoujin (🇹🇭 th)<br>finmanga (🇹🇭 th)<br>goddoujin (🇹🇭 th)<br>gomanga (🇹🇭 th)<br>lamimanga (🇹🇭 th)<br>makimaaaaa (🇹🇭 th)<br>manga168 (🇹🇭 th)<br>mangakimi (🇹🇭 th)<br>mangastep (🇹🇭 th)<br>moodtoon (🇹🇭 th)<br>ntrmanga (🇹🇭 th)<br>popsmanga (🇹🇭 th)<br>reapertrans (🇹🇭 th)<br>singmanga (🇹🇭 th)<br>slowmanga (🇹🇭 th)<br>sodsaime (🇹🇭 th)<br>speedmanga (🇹🇭 th)<br>tanukimanga (🇹🇭 th)<br>toomtammanga (🇹🇭 th)<br>amangaplanet (🇹🇷 tr)<br>arcurafansub (🇹🇷 tr)<br>gafeland (🇹🇷 tr)<br>gaiatoon (🇹🇷 tr)<br>koreliscans (🇹🇷 tr)<br>mangakusu (🇹🇷 tr)<br>moondaisyscans (🇹🇷 tr)<br>nemesisscans (🇹🇷 tr)<br>nirvanamanga (🇹🇷 tr)<br>patimanga (🇹🇷 tr)<br>raindropfansub (🇹🇷 tr)<br>sereinscan (🇹🇷 tr)<br>shijiescans (🇹🇷 tr)<br>tarotscans (🇹🇷 tr)<br>tempestscans (🇹🇷 tr)<br>zenithscans (🇹🇷 tr)</details> |
+| mangawork | <details><summary>2 extensions</summary>apecomics (🇧🇷 pt)<br>pizzariascan (🇧🇷 pt)</details> |
+| mangaworld | <details><summary>2 extensions</summary>mangaworld (🇮🇹 it)<br>mangaworldadult (🇮🇹 it)</details> |
+| mangotheme | <details><summary>3 extensions</summary>bladetoons (🇧🇷 pt)<br>imperiodabritannia (🇧🇷 pt)<br>mangotoons (🇧🇷 pt)</details> |
+| manhwaz | <details><summary>5 extensions</summary>manhwahub (🇬🇧 en)<br>manhwaz (🇬🇧 en)<br>mehentai (🇻🇳 vi)<br>sayhentai (🇻🇳 vi)<br>umetruyen (🇻🇳 vi)</details> |
+| masonry | <details><summary>7 extensions</summary>elitebabes (🌐 all)<br>femjoyhunter (🌐 all)<br>ftvhunter (🌐 all)<br>joymiihub (🌐 all)<br>metarthunter (🌐 all)<br>playmatehunter (🌐 all)<br>xarthunter (🌐 all)</details> |
+| mccms | <details><summary>3 extensions</summary>manhuawu (🇨🇳 zh)<br>miaoqu (🇨🇳 zh)<br>sixmh (🇨🇳 zh)</details> |
+| mmlook | <details><summary>2 extensions</summary>dumanwu (🇨🇳 zh)<br>rumanhua (🇨🇳 zh)</details> |
+| mmrcms | <details><summary>5 extensions</summary>onma (🇸🇦 ar)<br>utsukushii (🇧🇬 bg)<br>readcomicsonline (🇬🇧 en)<br>mangasin (🇪🇸 es)<br>scanvf (🇫🇷 fr)</details> |
+| monochrome | <details><summary>2 extensions</summary>monochromecustom (🇬🇧 en)<br>monochromescans (🇬🇧 en)</details> |
+| moonlighttl | <details><summary>2 extensions</summary>lectorasteria (🇪🇸 es)<br>traduccionesmoonlight (🇪🇸 es)</details> |
+| multichan | <details><summary>3 extensions</summary>henchan (🇷🇺 ru)<br>mangachan (🇷🇺 ru)<br>yaoichan (🇷🇺 ru)</details> |
+| natsuid | <details><summary>4 extensions</summary>kiryuu (🇮🇩 id)<br>mangatale (🇮🇩 id)<br>natsu (🇮🇩 id)<br>rawkuma (🇯🇵 ja)</details> |
+| oceanwp | <details><summary>2 extensions</summary>hentaicrot (🇮🇩 id)<br>pixhentai (🇮🇩 id)</details> |
+| pam | <details><summary>3 extensions</summary>theblank (🇬🇧 en)<br>epsilonscan (🇫🇷 fr)<br>softepsilonscan (🇫🇷 fr)</details> |
+| pizzareader | <details><summary>10 extensions</summary>hniscantrad (🌐 all)<br>bluesolo (🇫🇷 fr)<br>fmteam (🇫🇷 fr)<br>mangacorporation (🇫🇷 fr)<br>ddtteam (🇮🇹 it)<br>gto (🇮🇹 it)<br>hastateam (🇮🇹 it)<br>lupiteam (🇮🇹 it)<br>phoenixscans (🇮🇹 it)<br>tuttoanimemanga (🇮🇹 it)</details> |
+| scanreader | <details><summary>2 extensions</summary>hentaiscanreader (🇫🇷 fr)<br>scanreader (🇫🇷 fr)</details> |
+| senkuro | <details><summary>2 extensions</summary>senkognito (🇷🇺 ru)<br>senkuro (🇷🇺 ru)</details> |
+| sinmh | <details><summary>2 extensions</summary>jiuermanhua (🇨🇳 zh)<br>manhuadui (🇨🇳 zh)</details> |
+| spicytheme | <details><summary>2 extensions</summary>colorcitoscan (🇪🇸 es)<br>spicyscan (🇪🇸 es)</details> |
+| stalkercms | <details><summary>1 extensions</summary>risentoons (🇧🇷 pt)</details> |
+| uzaymanga | <details><summary>6 extensions</summary>afroditscans (🇹🇷 tr)<br>eldermanga (🇹🇷 tr)<br>eskimangalar (🇹🇷 tr)<br>limonmanga (🇹🇷 tr)<br>tenshimanga (🇹🇷 tr)<br>uzaymanga (🇹🇷 tr)</details> |
+| vercomics | <details><summary>2 extensions</summary>chochox (🇪🇸 es)<br>vcpvmp (🇪🇸 es)</details> |
+| wpcomics | <details><summary>7 extensions</summary>xoxocomics (🇬🇧 en)<br>raw18 (🇯🇵 ja)<br>doctruyen3q (🇻🇳 vi)<br>nettruyenco (🇻🇳 vi)<br>nettruyenx (🇻🇳 vi)<br>nhattruyen (🇻🇳 vi)<br>toptruyen (🇻🇳 vi)</details> |
+| zeistmanga | <details><summary>35 extensions</summary>comicverse (🇸🇦 ar)<br>lonertranslations (🇸🇦 ar)<br>mangaailand (🇸🇦 ar)<br>mangahub (🇸🇦 ar)<br>manhatok (🇸🇦 ar)<br>murim (🇸🇦 ar)<br>orcamanga (🇸🇦 ar)<br>xsanomanga (🇸🇦 ar)<br>yokai (🇸🇦 ar)<br>yurimoonsub (🇸🇦 ar)<br>murimscan (🇬🇧 en)<br>darkroomfansub (🇪🇸 es)<br>datgarscanlation (🇪🇸 es)<br>gistamishouse (🇪🇸 es)<br>sapphirescan (🇪🇸 es)<br>aarlas (🇮🇩 id)<br>inazumanga (🇮🇩 id)<br>lepoytl (🇮🇩 id)<br>mikoroku (🇮🇩 id)<br>ngamenkomik (🇮🇩 id)<br>okyykomik (🇮🇩 id)<br>shiyurasub (🇮🇩 id)<br>tooncubus (🇮🇩 id)<br>ulascomic (🇮🇩 id)<br>apenasumafa (🇧🇷 pt)<br>galaxscanlator (🇧🇷 pt)<br>hanmokkuscan (🇧🇷 pt)<br>ler999 (🇧🇷 pt)<br>osakascan (🇧🇷 pt)<br>pinkrosa (🇧🇷 pt)<br>temakimangas (🇧🇷 pt)<br>traducoesdolipe (🇧🇷 pt)<br>yaoifanclub (🇧🇷 pt)<br>mikrokosmosfansub (🇹🇷 tr)<br>shadowceviri (🇹🇷 tr)</details> |
+| zmanga | <details><summary>3 extensions</summary>crotpedia (🇮🇩 id)<br>maidmanga (🇮🇩 id)<br>shirodoujin (🇮🇩 id)</details> |
 
-### Standalone Extensions (1270)
+### Standalone Extensions (562)
 
 | Extension | Language |
 | --- | --- |
 | ahottie | 🌐 all |
 | akuma | 🌐 all |
-| allporncomicsco | 🌐 all |
-| asmhentai | 🌐 all |
 | baobua | 🌐 all |
 | beauty3600000 | 🌐 all |
 | comicfury | 🌐 all |
-| comicgrowl | 🌐 all |
 | comicklive | 🌐 all |
 | comicskingdom | 🌐 all |
-| comicsvalley | 🌐 all |
 | comikey | 🌐 all |
 | commitstrip | 🌐 all |
-| coomer | 🌐 all |
 | cosplaytele | 🌐 all |
 | cubari | 🌐 all |
 | danbooru | 🌐 all |
 | deviantart | 🌐 all |
 | dragonballmultiverse | 🌐 all |
 | e621 | 🌐 all |
-| elitebabes | 🌐 all |
 | everiaclub | 🌐 all |
 | everiaclubcom | 🌐 all |
-| femjoyhunter | 🌐 all |
 | foamgirl | 🌐 all |
-| foolslidecustomizable | 🌐 all |
 | fourkhd | 🌐 all |
-| ftvhunter | 🌐 all |
 | globalcomix | 🌐 all |
-| grabberzone | 🌐 all |
 | hdoujin | 🌐 all |
 | hennojin | 🌐 all |
 | hentaicosplay | 🌐 all |
-| hentaienvy | 🌐 all |
-| hentaiera | 🌐 all |
-| hentaifox | 🌐 all |
-| hentaihand | 🌐 all |
 | hentailoop | 🌐 all |
-| hentairox | 🌐 all |
-| hentaizap | 🌐 all |
-| hniscantrad | 🌐 all |
 | holonometria | 🌐 all |
 | honeytoon | 🌐 all |
-| imhentai | 🌐 all |
 | izneo | 🌐 all |
 | jjcos | 🌐 all |
-| joymiihub | 🌐 all |
 | junmeitu | 🌐 all |
-| kemono | 🌐 all |
 | kiutaku | 🌐 all |
-| kodokustudio | 🌐 all |
 | koharu | 🌐 all |
 | komga | 🌐 all |
 | lanraragi | 🌐 all |
 | leagueoflegends | 🌐 all |
 | lunaranime | 🌐 all |
 | luscious | 🌐 all |
-| magicaltranslators | 🌐 all |
 | manga18me | 🌐 all |
 | mangaball | 🌐 all |
-| mangacrazy | 🌐 all |
 | mangadex | 🌐 all |
 | mangadna | 🌐 all |
 | mangadraft | 🌐 all |
 | mangafire | 🌐 all |
-| mangaforfree | 🌐 all |
 | mangaplus | 🌐 all |
 | mangapluscreators | 🌐 all |
-| mangataro | 🌐 all |
 | mangatoon | 🌐 all |
 | mangaup | 🌐 all |
 | mango | 🌐 all |
-| manhuarm | 🌐 all |
-| manhwa18cc | 🌐 all |
 | manhwa18net | 🌐 all |
-| manhwaclubnet | 🌐 all |
-| manhwadashraw | 🌐 all |
 | mayotune | 🌐 all |
-| metarthunter | 🌐 all |
-| miauscan | 🌐 all |
 | mitaku | 🌐 all |
 | myreadingmanga | 🌐 all |
 | namicomi | 🌐 all |
-| nhentaicom | 🌐 all |
-| nhentaixxx | 🌐 all |
 | niadd | 🌐 all |
 | novelcool | 🌐 all |
 | onepiecefans | 🌐 all |
@@ -281,12 +219,10 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | peppercarrot | 🌐 all |
 | photos18 | 🌐 all |
 | pixiv | 🌐 all |
-| playmatehunter | 🌐 all |
 | pornpics | 🌐 all |
 | projectsuki | 🌐 all |
 | rokuhentai | 🌐 all |
 | sandraandwoo | 🌐 all |
-| seraphicdeviltry | 🌐 all |
 | simplycosplay | 🌐 all |
 | simplyhentai | 🌐 all |
 | stashapp | 🌐 all |
@@ -298,7 +234,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | v2ph | 🌐 all |
 | vinnieVeritas | 🌐 all |
 | webtoons | 🌐 all |
-| xarthunter | 🌐 all |
 | xasiatalbums | 🌐 all |
 | xgmn | 🌐 all |
 | xiutaku | 🌐 all |
@@ -307,733 +242,293 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | yaoimangaonline | 🌐 all |
 | yellownote | 🌐 all |
 | yskcomics | 🌐 all |
-| anyonemanga | 🇸🇦 ar |
-| arabmanhwa | 🇸🇦 ar |
 | arabshentai | 🇸🇦 ar |
-| arabtoons | 🇸🇦 ar |
-| arbxcomix | 🇸🇦 ar |
-| areamanga | 🇸🇦 ar |
-| areascans | 🇸🇦 ar |
 | ariatoon | 🇸🇦 ar |
 | brownmanga | 🇸🇦 ar |
-| comicverse | 🇸🇦 ar |
-| despairmanga | 🇸🇦 ar |
-| detectiveconanar | 🇸🇦 ar |
 | dilar | 🇸🇦 ar |
 | duskoryvile | 🇸🇦 ar |
-| empirewebtoon | 🇸🇦 ar |
-| goonscans | 🇸🇦 ar |
 | hentaiman | 🇸🇦 ar |
-| hentaislayer | 🇸🇦 ar |
-| hijala | 🇸🇦 ar |
-| hizomanga | 🇸🇦 ar |
 | kawiimanga | 🇸🇦 ar |
-| lavascans | 🇸🇦 ar |
-| lonertranslations | 🇸🇦 ar |
-| manga3asq | 🇸🇦 ar |
-| mangaailand | 🇸🇦 ar |
-| mangahub | 🇸🇦 ar |
-| mangalek | 🇸🇦 ar |
-| mangalink | 🇸🇦 ar |
-| mangalionz | 🇸🇦 ar |
-| mangaspark | 🇸🇦 ar |
-| mangastarz | 🇸🇦 ar |
 | mangatales | 🇸🇦 ar |
 | mangatek | 🇸🇦 ar |
 | mangatime | 🇸🇦 ar |
-| mangatuk | 🇸🇦 ar |
-| manhatic | 🇸🇦 ar |
-| manhatok | 🇸🇦 ar |
-| murim | 🇸🇦 ar |
 | neverscans | 🇸🇦 ar |
-| onma | 🇸🇦 ar |
-| orcamanga | 🇸🇦 ar |
-| paradisebl | 🇸🇦 ar |
-| rocksmanga | 🇸🇦 ar |
-| xsanomanga | 🇸🇦 ar |
-| yokai | 🇸🇦 ar |
-| yonabar | 🇸🇦 ar |
-| yurimoonsub | 🇸🇦 ar |
-| utsukushii | 🇧🇬 bg |
-| fansubscat | 🇦🇩 ca |
-| fansubscathentai | 🇦🇩 ca |
-| evilproduction | 🏳️ cs |
 | mangatube | 🇩🇪 de |
 | akaicomic | 🇬🇧 en |
-| akazascans | 🇬🇧 en |
 | alandal | 🇬🇧 en |
-| allporncomic | 🇬🇧 en |
-| allporncomicio | 🇬🇧 en |
-| anisascans | 🇬🇧 en |
-| apcomics | 🇬🇧 en |
-| aquamanga | 🇬🇧 en |
-| arcrelight | 🇬🇧 en |
-| arenascans | 🇬🇧 en |
-| armageddon | 🇬🇧 en |
-| artlapsa | 🇬🇧 en |
-| aryascans | 🇬🇧 en |
 | asiatoon | 🇬🇧 en |
-| asmotoon | 🇬🇧 en |
-| assortedscans | 🇬🇧 en |
-| athreascans | 🇬🇧 en |
 | atsumaru | 🇬🇧 en |
 | aurora | 🇬🇧 en |
 | azuki | 🇬🇧 en |
-| bakkin | 🇬🇧 en |
-| bakkinselfhosted | 🇬🇧 en |
-| battleinfivesecondsaftermeeting | 🇬🇧 en |
 | bbato | 🇬🇧 en |
-| beehentai | 🇬🇧 en |
 | bookwalker | 🇬🇧 en |
-| boratscans | 🇬🇧 en |
 | broccolisoup | 🇬🇧 en |
-| bunmanga | 🇬🇧 en |
 | buttsmithy | 🇬🇧 en |
 | clonemanga | 🇬🇧 en |
 | clowncorps | 🇬🇧 en |
 | cmanhua | 🇬🇧 en |
-| cocomic | 🇬🇧 en |
-| coffeemanga | 🇬🇧 en |
 | collectedcurios | 🇬🇧 en |
-| comicasura | 🇬🇧 en |
 | comiccx | 🇬🇧 en |
 | comichubfree | 🇬🇧 en |
 | comickfan | 🇬🇧 en |
 | comicland | 🇬🇧 en |
-| comicsland | 🇬🇧 en |
 | comix | 🇬🇧 en |
 | coolmic | 🇬🇧 en |
-| crowscans | 🇬🇧 en |
-| cucumbermanga | 🇬🇧 en |
-| culturedworks | 🇬🇧 en |
 | cutiecomics | 🇬🇧 en |
-| dankefurslesen | 🇬🇧 en |
 | darklegacycomics | 🇬🇧 en |
 | darkscience | 🇬🇧 en |
 | darthsdroids | 🇬🇧 en |
-| deathtollscans | 🇬🇧 en |
-| decadencescans | 🇬🇧 en |
 | dflowscans | 🇬🇧 en |
 | digitalcomicmuseum | 🇬🇧 en |
 | divascans | 🇬🇧 en |
 | doujinio | 🇬🇧 en |
 | doujins | 🇬🇧 en |
-| dragontea | 🇬🇧 en |
-| drakescans | 🇬🇧 en |
 | dynasty | 🇬🇧 en |
 | eggporncomics | 🇬🇧 en |
 | egscomics | 🇬🇧 en |
-| eighteenporncomic | 🇬🇧 en |
-| eightmuses | 🇬🇧 en |
 | elanschool | 🇬🇧 en |
-| elftoon | 🇬🇧 en |
 | emaqi | 🇬🇧 en |
-| erisscans | 🇬🇧 en |
-| ero18x | 🇬🇧 en |
-| erofus | 🇬🇧 en |
-| erosscans | 🇬🇧 en |
-| evascans | 🇬🇧 en |
 | existentialcomics | 🇬🇧 en |
 | explosm | 🇬🇧 en |
-| ezmanga | 🇬🇧 en |
 | fairyscans | 🇬🇧 en |
-| firescans | 🇬🇧 en |
 | flamecomics | 🇬🇧 en |
-| frierenonline | 🇬🇧 en |
-| gakamangas | 🇬🇧 en |
-| galaxydegenscans | 🇬🇧 en |
-| galaxymanga | 🇬🇧 en |
-| gedecomix | 🇬🇧 en |
-| gingertoon | 🇬🇧 en |
 | girlstop | 🇬🇧 en |
-| goda | 🇬🇧 en |
-| gourmetscans | 🇬🇧 en |
 | greedscans | 🇬🇧 en |
-| grimscans | 🇬🇧 en |
 | grrlpower | 🇬🇧 en |
 | gunnerkriggcourt | 🇬🇧 en |
-| guya | 🇬🇧 en |
 | gwtb | 🇬🇧 en |
-| hachirumi | 🇬🇧 en |
-| hadesscans | 🇬🇧 en |
-| hentai3zcc | 🇬🇧 en |
-| hentai4free | 🇬🇧 en |
-| hentaidex | 🇬🇧 en |
 | hentaihere | 🇬🇧 en |
 | hentaikisu | 🇬🇧 en |
 | hentaikun | 🇬🇧 en |
 | hentainexus | 🇬🇧 en |
-| hentairead | 🇬🇧 en |
 | hentaireadio | 🇬🇧 en |
-| hentaisco | 🇬🇧 en |
-| hentaixcomic | 🇬🇧 en |
-| hentaixdickgirl | 🇬🇧 en |
-| hentaixyuri | 🇬🇧 en |
 | hentara | 🇬🇧 en |
 | heytoon | 🇬🇧 en |
 | hiveworks | 🇬🇧 en |
-| hm2d | 🇬🇧 en |
 | honkaiimpact | 🇬🇧 en |
 | hotcomics | 🇬🇧 en |
 | hyakuro | 🇬🇧 en |
 | imanevilgod | 🇬🇧 en |
 | infinityscans | 🇬🇧 en |
 | irovedout | 🇬🇧 en |
-| isekaiscantop | 🇬🇧 en |
-| jinmangas | 🇬🇧 en |
 | jnovel | 🇬🇧 en |
-| kaizenscan | 🇬🇧 en |
-| kaliscancom | 🇬🇧 en |
 | kappabeast | 🇬🇧 en |
 | keenspot | 🇬🇧 en |
-| kewnscans | 🇬🇧 en |
 | killsixbilliondemons | 🇬🇧 en |
 | kingcomix | 🇬🇧 en |
-| kingofshojo | 🇬🇧 en |
-| kissmangain | 🇬🇧 en |
 | kodansha | 🇬🇧 en |
-| ksgroupscans | 🇬🇧 en |
-| kunmangaonline | 🇬🇧 en |
 | kuramanga | 🇬🇧 en |
-| lagoonscans | 🇬🇧 en |
 | leslievictims | 🇬🇧 en |
-| lhtranslation | 🇬🇧 en |
 | likemanga | 🇬🇧 en |
-| likemangain | 🇬🇧 en |
-| lilymanga | 🇬🇧 en |
-| linkmanga | 🇬🇧 en |
 | loadingartist | 🇬🇧 en |
 | luminaretranslations | 🇬🇧 en |
-| lunatoons | 🇬🇧 en |
 | lusttoon | 🇬🇧 en |
-| madaradex | 🇬🇧 en |
-| madarascans | 🇬🇧 en |
 | madokami | 🇬🇧 en |
-| mahouirexnohentaikarte | 🇬🇧 en |
-| manga18club | 🇬🇧 en |
-| manga18free | 🇬🇧 en |
-| manga18fx | 🇬🇧 en |
-| manga18x | 🇬🇧 en |
-| mangabat | 🇬🇧 en |
 | mangabay | 🇬🇧 en |
-| mangablaze | 🇬🇧 en |
 | mangabolt | 🇬🇧 en |
 | mangabtt | 🇬🇧 en |
 | mangabuddy | 🇬🇧 en |
 | mangack | 🇬🇧 en |
 | mangacloud | 🇬🇧 en |
-| mangadass | 🇬🇧 en |
 | mangade | 🇬🇧 en |
 | mangademon | 🇬🇧 en |
-| mangadia | 🇬🇧 en |
-| mangadistrict | 🇬🇧 en |
-| mangadrama | 🇬🇧 en |
-| mangaforfreecom | 🇬🇧 en |
 | mangafox | 🇬🇧 en |
 | mangafreak | 🇬🇧 en |
-| mangafree | 🇬🇧 en |
-| mangagg | 🇬🇧 en |
 | mangago | 🇬🇧 en |
-| mangagofun | 🇬🇧 en |
-| mangahe | 🇬🇧 en |
 | mangahen | 🇬🇧 en |
 | mangahere | 🇬🇧 en |
-| mangaka | 🇬🇧 en |
-| mangakakalot | 🇬🇧 en |
 | mangakatana | 🇬🇧 en |
-| mangakiss | 🇬🇧 en |
-| mangamaniacs | 🇬🇧 en |
 | mangamirai | 🇬🇧 en |
 | mangamo | 🇬🇧 en |
 | mangamob | 🇬🇧 en |
-| manganelo | 🇬🇧 en |
-| manganow | 🇬🇧 en |
-| mangaowlio | 🇬🇧 en |
 | mangapill | 🇬🇧 en |
 | mangarawclub | 🇬🇧 en |
 | mangareadercc | 🇬🇧 en |
-| mangareadorg | 🇬🇧 en |
-| mangasushi | 🇬🇧 en |
-| mangatellers | 🇬🇧 en |
 | mangatown | 🇬🇧 en |
-| mangatrend | 🇬🇧 en |
-| mangatx | 🇬🇧 en |
 | mangauno | 🇬🇧 en |
 | mangayi | 🇬🇧 en |
-| manhuafastnet | 🇬🇧 en |
-| manhuahot | 🇬🇧 en |
-| manhuanext | 🇬🇧 en |
-| manhuaplus | 🇬🇧 en |
-| manhuaplusorg | 🇬🇧 en |
 | manhuarush | 🇬🇧 en |
-| manhuascanus | 🇬🇧 en |
-| manhuatop | 🇬🇧 en |
-| manhuaus | 🇬🇧 en |
-| manhuazonghe | 🇬🇧 en |
 | manhwa18 | 🇬🇧 en |
-| manhwa18org | 🇬🇧 en |
-| manhwa68 | 🇬🇧 en |
 | manhwabuddy | 🇬🇧 en |
-| manhwacomics | 🇬🇧 en |
-| manhwaden | 🇬🇧 en |
-| manhwaget | 🇬🇧 en |
-| manhwahub | 🇬🇧 en |
 | manhwalike | 🇬🇧 en |
-| manhwalover | 🇬🇧 en |
-| manhwamanhua | 🇬🇧 en |
-| manhwanex | 🇬🇧 en |
 | manhwaread | 🇬🇧 en |
-| manhwareads | 🇬🇧 en |
-| manhwatoon | 🇬🇧 en |
-| manhwatop | 🇬🇧 en |
-| manhwax | 🇬🇧 en |
 | manhwaxxl | 🇬🇧 en |
-| manhwaz | 🇬🇧 en |
 | manhwazone | 🇬🇧 en |
 | megatokyo | 🇬🇧 en |
 | mehgazone | 🇬🇧 en |
-| meitoon | 🇬🇧 en |
 | mgreadio | 🇬🇧 en |
-| milftoon | 🇬🇧 en |
-| mistscans | 🇬🇧 en |
 | mlbblore | 🇬🇧 en |
-| monochromecustom | 🇬🇧 en |
-| monochromescans | 🇬🇧 en |
 | multporn | 🇬🇧 en |
-| murimscan | 🇬🇧 en |
 | myadultcomics | 🇬🇧 en |
 | myhentaicomics | 🇬🇧 en |
 | myhentaigallery | 🇬🇧 en |
 | newmanhwa | 🇬🇧 en |
-| nexcomic | 🇬🇧 en |
-| nikatoons | 🇬🇧 en |
 | nineanime | 🇬🇧 en |
 | ninehentai | 🇬🇧 en |
 | ninekon | 🇬🇧 en |
 | nixmanga | 🇬🇧 en |
-| novel24h | 🇬🇧 en |
-| novelcrow | 🇬🇧 en |
-| noxenscans | 🇬🇧 en |
 | nuviatoon | 🇬🇧 en |
 | nuxscans | 🇬🇧 en |
-| nyanukafe | 🇬🇧 en |
-| nyrascans | 🇬🇧 en |
-| octopusmanga | 🇬🇧 en |
 | oglaf | 🇬🇧 en |
 | ohjoysextoy | 🇬🇧 en |
 | onepunchmanonline | 🇬🇧 en |
 | onlythebesthentai | 🇬🇧 en |
 | oots | 🇬🇧 en |
 | oppaistream | 🇬🇧 en |
-| orchisasia | 🇬🇧 en |
-| paradisescans | 🇬🇧 en |
-| paritehaber | 🇬🇧 en |
 | patchfriday | 🇬🇧 en |
-| pawmanga | 🇬🇧 en |
-| petrotechsociety | 🇬🇧 en |
 | philiascans | 🇬🇧 en |
-| plutoscans | 🇬🇧 en |
-| pmscans | 🇬🇧 en |
 | porncomix | 🇬🇧 en |
-| qiscans | 🇬🇧 en |
 | questionablecontent | 🇬🇧 en |
-| ragescans | 🇬🇧 en |
 | randowiz | 🇬🇧 en |
-| ravenscans | 🇬🇧 en |
-| razure | 🇬🇧 en |
-| rdscans | 🇬🇧 en |
 | readallcomicscom | 🇬🇧 en |
-| readattackontitanshingekinokyojinmanga | 🇬🇧 en |
-| readberserkmanga | 🇬🇧 en |
-| readblackclovermangaonline | 🇬🇧 en |
-| readbokunoheroacademiamyheroacademiamanga | 🇬🇧 en |
-| readchainsawmanmangaonline | 🇬🇧 en |
 | readcomiconline | 🇬🇧 en |
-| readcomicsonline | 🇬🇧 en |
-| readfairytailedenszeromangaonline | 🇬🇧 en |
 | readhorimiyaonline | 🇬🇧 en |
-| readjujutsukaisenmangaonline | 🇬🇧 en |
-| readkingdommangaonline | 🇬🇧 en |
-| readnanatsunotaizai7deadlysinsmangaonline | 🇬🇧 en |
-| readnarutoborutosamurai8mangaonline | 🇬🇧 en |
-| readonepiecemangaonline | 🇬🇧 en |
-| readonepunchmanmangaonlinetwo | 🇬🇧 en |
-| readsololevelingmangamanhwaonline | 🇬🇧 en |
-| readtokyoghoulretokyoghoulmangaonline | 🇬🇧 en |
 | readvagabondmanga | 🇬🇧 en |
 | reallifecomics | 🇬🇧 en |
 | reimanga | 🇬🇧 en |
-| restscans | 🇬🇧 en |
 | revivalscans | 🇬🇧 en |
 | rinkocomics | 🇬🇧 en |
-| ritharscans | 🇬🇧 en |
-| rizzcomic | 🇬🇧 en |
-| rizzcomicunoriginal | 🇬🇧 en |
-| rokaricomics | 🇬🇧 en |
-| roliascan | 🇬🇧 en |
-| rosesquadscans | 🇬🇧 en |
-| ryumanga | 🇬🇧 en |
-| s2manga | 🇬🇧 en |
 | sabrinaonline | 🇬🇧 en |
 | sacachispa | 🇬🇧 en |
 | saturdaymorningbreakfastcomics | 🇬🇧 en |
 | scansgg | 🇬🇧 en |
 | schlockmercenary | 🇬🇧 en |
-| setsuscans | 🇬🇧 en |
-| shibamanga | 🇬🇧 en |
-| shojoscans | 🇬🇧 en |
-| sirenscans | 🇬🇧 en |
-| skymanga | 🇬🇧 en |
-| sleepytranslations | 🇬🇧 en |
 | solarandsundry | 🇬🇧 en |
-| spmanhwa | 🇬🇧 en |
 | spyfakku | 🇬🇧 en |
 | stonescape | 🇬🇧 en |
 | sunshinebutterflyscans | 🇬🇧 en |
 | supermega | 🇬🇧 en |
-| suryascans | 🇬🇧 en |
 | swordscomic | 🇬🇧 en |
 | tapastic | 🇬🇧 en |
 | tcbscans | 🇬🇧 en |
 | teamshadowi | 🇬🇧 en |
 | templescan | 🇬🇧 en |
-| theblank | 🇬🇧 en |
 | theduckwebcomics | 🇬🇧 en |
 | thepropertyofhate | 🇬🇧 en |
-| thunderscans | 🇬🇧 en |
-| timelesstoons | 🇬🇧 en |
 | todaymanga | 🇬🇧 en |
-| toon18 | 🇬🇧 en |
-| toongod | 🇬🇧 en |
-| toonily | 🇬🇧 en |
-| toonilyme | 🇬🇧 en |
-| toonitube | 🇬🇧 en |
-| toonizy | 🇬🇧 en |
-| topmanhua | 🇬🇧 en |
-| topmanhuafan | 🇬🇧 en |
-| topmanhuanet | 🇬🇧 en |
-| tritiniascans | 🇬🇧 en |
 | valirscans | 🇬🇧 en |
 | vgperson | 🇬🇧 en |
 | vizshonenjump | 🇬🇧 en |
 | voyceme | 🇬🇧 en |
 | vyvymanga | 🇬🇧 en |
-| vyvymangaorg | 🇬🇧 en |
 | warforrayuba | 🇬🇧 en |
-| wearehunger | 🇬🇧 en |
 | webcomics | 🇬🇧 en |
-| webtoonscan | 🇬🇧 en |
-| webtoonxyz | 🇬🇧 en |
-| whalemanga | 🇬🇧 en |
-| witchscans | 🇬🇧 en |
-| woopread | 🇬🇧 en |
-| writerscans | 🇬🇧 en |
-| wuxiaworld | 🇬🇧 en |
-| xoxocomics | 🇬🇧 en |
 | xyzcomics | 🇬🇧 en |
-| yakshacomics | 🇬🇧 en |
-| yaoihub | 🇬🇧 en |
-| yaoiscan | 🇬🇧 en |
 | yorai | 🇬🇧 en |
-| zazamanga | 🇬🇧 en |
-| zinmanga | 🇬🇧 en |
-| zinmanganet | 🇬🇧 en |
 | akaya | 🇪🇸 es |
 | anzmanga | 🇪🇸 es |
-| apollcomics | 🇪🇸 es |
-| asialotus | 🇪🇸 es |
-| barmanga | 🇪🇸 es |
-| begatranslation | 🇪🇸 es |
-| bibliopanda | 🇪🇸 es |
-| bloomscans | 🇪🇸 es |
-| bokugentranslation | 🇪🇸 es |
-| bymichiscan | 🇪🇸 es |
 | capibaratraductor | 🇪🇸 es |
-| catharsisworld | 🇪🇸 es |
 | catmanhwas | 🇪🇸 es |
-| celestialmoon | 🇪🇸 es |
-| cerberusseries | 🇪🇸 es |
-| chochox | 🇪🇸 es |
 | codearc | 🇪🇸 es |
-| codexzero | 🇪🇸 es |
-| colorcitoscan | 🇪🇸 es |
-| darkroomfansub | 🇪🇸 es |
-| datgarscanlation | 🇪🇸 es |
 | doujinhentai | 🇪🇸 es |
-| doujinshell | 🇪🇸 es |
-| dragontranslationorg | 🇪🇸 es |
 | dynasty | 🇪🇸 es |
-| emperorscan | 🇪🇸 es |
 | enchiladascan | 🇪🇸 es |
-| esmi2manga | 🇪🇸 es |
-| gistamishouse | 🇪🇸 es |
-| gremorymangas | 🇪🇸 es |
-| hadesnofansub | 🇪🇸 es |
-| haremdekira | 🇪🇸 es |
 | heavenmanga | 🇪🇸 es |
 | hentaihall | 🇪🇸 es |
 | hentaimode | 🇪🇸 es |
-| houseofotakus | 🇪🇸 es |
 | ikigaimangas | 🇪🇸 es |
 | ikuhentai | 🇪🇸 es |
-| infrafandub | 🇪🇸 es |
 | inmanga | 🇪🇸 es |
-| inmortalscan | 🇪🇸 es |
 | insanosscan | 🇪🇸 es |
-| inventariooculto | 🇪🇸 es |
 | jeazscans | 🇪🇸 es |
-| kazokuden | 🇪🇸 es |
 | koinoboriscan | 🇪🇸 es |
-| lectorasteria | 🇪🇸 es |
 | lectorjpg | 🇪🇸 es |
-| lectormangalat | 🇪🇸 es |
 | lectormonline | 🇪🇸 es |
 | leercapitulo | 🇪🇸 es |
 | leermangaesp | 🇪🇸 es |
 | lmtoonline | 🇪🇸 es |
-| lolivault | 🇪🇸 es |
-| lunapieces | 🇪🇸 es |
-| mangacrab | 🇪🇸 es |
-| mangaesp | 🇪🇸 es |
 | mangamx | 🇪🇸 es |
-| mangaromance | 🇪🇸 es |
-| mangashiina | 🇪🇸 es |
-| mangasin | 🇪🇸 es |
-| mangasnosekai | 🇪🇸 es |
-| mangatv | 🇪🇸 es |
-| manhuaonline | 🇪🇸 es |
-| manhwalatino | 🇪🇸 es |
-| manhwaonline | 🇪🇸 es |
 | manhwaweb | 🇪🇸 es |
 | mantrazscan | 🇪🇸 es |
-| marmota | 🇪🇸 es |
-| menudofansub | 🇪🇸 es |
-| mhscans | 🇪🇸 es |
-| monopolyscan | 🇪🇸 es |
-| mundomanhwa | 🇪🇸 es |
 | nartag | 🇪🇸 es |
-| nekoscans | 🇪🇸 es |
 | neomanga | 🇪🇸 es |
 | nexusscanlation | 🇪🇸 es |
-| noblessetranslations | 🇪🇸 es |
-| novamanhwa | 🇪🇸 es |
 | olympusscanlation | 🇪🇸 es |
 | onfmangas | 🇪🇸 es |
 | orckumangas | 🇪🇸 es |
 | platinumlilyscan | 🇪🇸 es |
 | plottwistnofansub | 🇪🇸 es |
-| ragnarokscanlation | 🇪🇸 es |
 | ragnascans | 🇪🇸 es |
 | ravenmanga | 🇪🇸 es |
-| richtoscan | 🇪🇸 es |
-| sapphirescan | 🇪🇸 es |
 | shadowmanga | 🇪🇸 es |
-| skymangas | 🇪🇸 es |
-| spicyscan | 🇪🇸 es |
 | submanhwa | 🇪🇸 es |
-| swordofoblivion | 🇪🇸 es |
-| taurusfansub | 🇪🇸 es |
-| templescanesp | 🇪🇸 es |
 | tenkaiscan | 🇪🇸 es |
-| toones | 🇪🇸 es |
-| topcomicporno | 🇪🇸 es |
-| topcomicpornonet | 🇪🇸 es |
-| traduccionesmoonlight | 🇪🇸 es |
 | tumanhwasclub | 🇪🇸 es |
-| uchuujinprojects | 🇪🇸 es |
-| vcpvmp | 🇪🇸 es |
-| vermanhwas | 🇪🇸 es |
 | yupmanga | 🇪🇸 es |
-| yurionline | 🇪🇸 es |
 | zonatmoto | 🇪🇸 es |
 | animesama | 🇫🇷 fr |
 | aralosbd | 🇫🇷 fr |
 | astralmanga | 🇫🇷 fr |
-| bananascan | 🇫🇷 fr |
 | bigsolo | 🇫🇷 fr |
-| bluesolo | 🇫🇷 fr |
 | chaostrad | 🇫🇷 fr |
 | dassouscan | 🇫🇷 fr |
-| epsilonscan | 🇫🇷 fr |
-| fmteam | 🇫🇷 fr |
 | furyosquad | 🇫🇷 fr |
 | hanabook | 🇫🇷 fr |
-| hentaiorigines | 🇫🇷 fr |
-| hentaiscanreader | 🇫🇷 fr |
-| hentaiscantrad | 🇫🇷 fr |
-| hentaizone | 🇫🇷 fr |
-| histoiredhentai | 🇫🇷 fr |
 | japscan | 🇫🇷 fr |
-| kiwiyascans | 🇫🇷 fr |
 | lanortrad | 🇫🇷 fr |
-| lelmanga | 🇫🇷 fr |
 | lelscan | 🇫🇷 fr |
-| lelscanvf | 🇫🇷 fr |
 | lesporoiniens | 🇫🇷 fr |
-| mangacorporation | 🇫🇷 fr |
-| mangahubfr | 🇫🇷 fr |
 | mangakawaii | 🇫🇷 fr |
 | mangamoins | 🇫🇷 fr |
 | manganova | 🇫🇷 fr |
-| mangascantrad | 🇫🇷 fr |
-| mangasoriginesfr | 🇫🇷 fr |
-| mangasscans | 🇫🇷 fr |
 | ono | 🇫🇷 fr |
 | ortegascans | 🇫🇷 fr |
-| pantheonscan | 🇫🇷 fr |
 | perfscan | 🇫🇷 fr |
 | phenixscansco | 🇫🇷 fr |
-| pornhwafr | 🇫🇷 fr |
 | poseidonscans | 🇫🇷 fr |
 | raijinscans | 🇫🇷 fr |
 | rimuscans | 🇫🇷 fr |
-| scanhentaimenu | 🇫🇷 fr |
 | scanmanga | 🇫🇷 fr |
 | scanr | 🇫🇷 fr |
-| scanreader | 🇫🇷 fr |
 | scansfr | 🇫🇷 fr |
 | scantradunion | 🇫🇷 fr |
-| scanvf | 🇫🇷 fr |
-| sirenscansfr | 🇫🇷 fr |
-| softepsilonscan | 🇫🇷 fr |
-| sushiscan | 🇫🇷 fr |
-| sushiscanfr | 🇫🇷 fr |
-| toonfr | 🇫🇷 fr |
 | twatt | 🇫🇷 fr |
-| yaoiscan | 🇫🇷 fr |
-| Luvyaa | 🇮🇩 id |
-| aarlas | 🇮🇩 id |
 | ainzscansid | 🇮🇩 id |
-| astralscans | 🇮🇩 id |
 | bacakomik | 🇮🇩 id |
 | bacami | 🇮🇩 id |
 | comicaso | 🇮🇩 id |
 | cosmicscansid | 🇮🇩 id |
-| crotpedia | 🇮🇩 id |
-| dailysuka | 🇮🇩 id |
-| dojingnet | 🇮🇩 id |
 | doujindesu | 🇮🇩 id |
-| doujinku | 🇮🇩 id |
 | dreamteamsscans | 🇮🇩 id |
-| hentaicrot | 🇮🇩 id |
-| holotoon | 🇮🇩 id |
-| hwago | 🇮🇩 id |
-| inazumanga | 🇮🇩 id |
-| izanamiscans | 🇮🇩 id |
-| kanzenin | 🇮🇩 id |
-| kiryuu | 🇮🇩 id |
-| klikmanga | 🇮🇩 id |
-| komikav | 🇮🇩 id |
 | komikcast | 🇮🇩 id |
-| komikdewasa | 🇮🇩 id |
-| komikdewasaart | 🇮🇩 id |
-| komikhwa | 🇮🇩 id |
-| komikindo | 🇮🇩 id |
-| komikindoco | 🇮🇩 id |
 | komikindoid | 🇮🇩 id |
 | komiknesia | 🇮🇩 id |
 | komiknextgonline | 🇮🇩 id |
-| komikstation | 🇮🇩 id |
-| komiktap | 🇮🇩 id |
 | komiku | 🇮🇩 id |
-| komikucom | 🇮🇩 id |
-| komikzoid | 🇮🇩 id |
-| kumapoi | 🇮🇩 id |
-| kumopoi | 🇮🇩 id |
-| kuromanga | 🇮🇩 id |
-| lepoytl | 🇮🇩 id |
-| lianscans | 🇮🇩 id |
-| lumoskomik | 🇮🇩 id |
-| maidmanga | 🇮🇩 id |
-| mangacan | 🇮🇩 id |
 | mangakuri | 🇮🇩 id |
 | mangalay | 🇮🇩 id |
-| mangasusu | 🇮🇩 id |
-| mangatale | 🇮🇩 id |
-| manhwadesu | 🇮🇩 id |
-| manhwaindo | 🇮🇩 id |
-| manhwalandmom | 🇮🇩 id |
-| manhwalistid | 🇮🇩 id |
-| manhwalistorg | 🇮🇩 id |
-| mgkomik | 🇮🇩 id |
-| mihentai | 🇮🇩 id |
-| mikoroku | 🇮🇩 id |
 | narasininja | 🇮🇩 id |
-| natsu | 🇮🇩 id |
-| ngamenkomik | 🇮🇩 id |
-| ngomik | 🇮🇩 id |
-| noromax | 🇮🇩 id |
-| okyykomik | 🇮🇩 id |
-| omicaso | 🇮🇩 id |
-| otascans | 🇮🇩 id |
-| pixhentai | 🇮🇩 id |
-| pornhwa18 | 🇮🇩 id |
 | pramramadhan | 🇮🇩 id |
 | riztranslation | 🇮🇩 id |
 | roseveil | 🇮🇩 id |
-| sasangeyou | 🇮🇩 id |
-| sektedoujin | 🇮🇩 id |
-| sektekomik | 🇮🇩 id |
 | shinigami | 🇮🇩 id |
-| shirakami | 🇮🇩 id |
-| shirodoujin | 🇮🇩 id |
-| shiyurasub | 🇮🇩 id |
-| siimanga | 🇮🇩 id |
 | softkomik | 🇮🇩 id |
-| soulscans | 🇮🇩 id |
 | themanga | 🇮🇩 id |
-| tooncubus | 🇮🇩 id |
-| ulascomic | 🇮🇩 id |
 | westmanga | 🇮🇩 id |
 | wurmz | 🇮🇩 id |
-| yubikiri | 🇮🇩 id |
 | animegdrclub | 🇮🇹 it |
-| ddtteam | 🇮🇹 it |
 | digitalteam | 🇮🇹 it |
-| gto | 🇮🇹 it |
-| hastateam | 🇮🇹 it |
 | hentaiarchive | 🇮🇹 it |
 | hentaifantasy | 🇮🇹 it |
-| juinjutsuteamreader | 🇮🇹 it |
-| lupiteam | 🇮🇹 it |
-| mangaworld | 🇮🇹 it |
-| mangaworldadult | 🇮🇹 it |
-| nifteam | 🇮🇹 it |
-| phoenixscans | 🇮🇹 it |
-| tuttoanimemanga | 🇮🇹 it |
-| walpurgisscan | 🇮🇹 it |
 | zeurelscan | 🇮🇹 it |
 | alphapolis | 🇯🇵 ja |
 | amebamanga | 🇯🇵 ja |
-| bigcomics | 🇯🇵 ja |
 | ciaoplus | 🇯🇵 ja |
 | cmoa | 🇯🇵 ja |
 | comicboost | 🇯🇵 ja |
-| comicborder | 🇯🇵 ja |
-| comicdays | 🇯🇵 ja |
-| comicearthstar | 🇯🇵 ja |
-| comicfesta | 🇯🇵 ja |
 | comicfuz | 🇯🇵 ja |
-| comicgardo | 🇯🇵 ja |
 | comicgrast | 🇯🇵 ja |
-| comicmedu | 🇯🇵 ja |
 | comicmeteor | 🇯🇵 ja |
 | comicnettai | 🇯🇵 ja |
 | comico | 🇯🇵 ja |
-| comicpash | 🇯🇵 ja |
-| comicride | 🇯🇵 ja |
 | comicryu | 🇯🇵 ja |
-| comicyours | 🇯🇵 ja |
-| comiplex | 🇯🇵 ja |
 | corocoroonline | 🇯🇵 ja |
 | coronaex | 🇯🇵 ja |
 | cycomi | 🇯🇵 ja |
 | dmm | 🇯🇵 ja |
 | docomo | 🇯🇵 ja |
-| dokiraw | 🇯🇵 ja |
 | drecomics | 🇯🇵 ja |
 | ebookjapan | 🇯🇵 ja |
-| firecross | 🇯🇵 ja |
 | flowercomics | 🇯🇵 ja |
 | fodfuji | 🇯🇵 ja |
 | ganganonline | 🇯🇵 ja |
@@ -1041,34 +536,19 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | gaugaumonsterplus | 🇯🇵 ja |
 | gorakuweb | 🇯🇵 ja |
 | hachiraw | 🇯🇵 ja |
-| hanayume | 🇯🇵 ja |
-| herosweb | 🇯🇵 ja |
-| ichicomi | 🇯🇵 ja |
 | idolgravureprincessdate | 🇯🇵 ja |
-| jmanga | 🇯🇵 ja |
-| jnbooks | 🇯🇵 ja |
 | jumprookie | 🇯🇵 ja |
 | kadocomi | 🇯🇵 ja |
-| kimicomi | 🇯🇵 ja |
 | kisslove | 🇯🇵 ja |
-| klraw | 🇯🇵 ja |
 | klto9 | 🇯🇵 ja |
-| kmansin09 | 🇯🇵 ja |
 | kumaraw | 🇯🇵 ja |
-| kuragebunch | 🇯🇵 ja |
 | linemanga | 🇯🇵 ja |
 | magazinepocket | 🇯🇵 ja |
-| magcomi | 🇯🇵 ja |
-| magkan | 🇯🇵 ja |
 | manga1000 | 🇯🇵 ja |
-| mangabang | 🇯🇵 ja |
-| mangacross | 🇯🇵 ja |
-| mangagun | 🇯🇵 ja |
 | mangakingdom | 🇯🇵 ja |
 | mangakuro | 🇯🇵 ja |
 | mangamee | 🇯🇵 ja |
 | mangameets | 🇯🇵 ja |
-| mangamura | 🇯🇵 ja |
 | mangano | 🇯🇵 ja |
 | mangaone | 🇯🇵 ja |
 | mangaparkpublisher | 🇯🇵 ja |
@@ -1083,338 +563,130 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | ohtawebcomic | 🇯🇵 ja |
 | pashup | 🇯🇵 ja |
 | piccoma | 🇯🇵 ja |
-| raw1001 | 🇯🇵 ja |
-| raw18 | 🇯🇵 ja |
-| rawbaka | 🇯🇵 ja |
 | rawdevartart | 🇯🇵 ja |
-| rawinu | 🇯🇵 ja |
-| rawkuma | 🇯🇵 ja |
-| rawlh | 🇯🇵 ja |
-| rawotaku | 🇯🇵 ja |
 | rawuwu | 🇯🇵 ja |
 | rawxz | 🇯🇵 ja |
 | readerstore | 🇯🇵 ja |
-| rimacomiplus | 🇯🇵 ja |
 | senmanga | 🇯🇵 ja |
-| shonenjumpplus | 🇯🇵 ja |
 | sokuyomi | 🇯🇵 ja |
-| sundaywebevery | 🇯🇵 ja |
-| takecomic | 🇯🇵 ja |
-| tonarinoyoungjump | 🇯🇵 ja |
 | twi4 | 🇯🇵 ja |
 | unext | 🇯🇵 ja |
-| welovemangaone | 🇯🇵 ja |
 | yanmaga | 🇯🇵 ja |
 | ynjn | 🇯🇵 ja |
 | yomonga | 🇯🇵 ja |
-| younganimal | 🇯🇵 ja |
-| youngchampion | 🇯🇵 ja |
 | zebrack | 🇯🇵 ja |
-| zenon | 🇯🇵 ja |
 | zerosumonline | 🇯🇵 ja |
 | blacktoon | 🇰🇷 ko |
 | manatoki | 🇰🇷 ko |
 | navercomic | 🇰🇷 ko |
-| rawdex | 🇰🇷 ko |
 | toon11 | 🇰🇷 ko |
 | toonkor | 🇰🇷 ko |
 | wolfdotcom | 🇰🇷 ko |
 | mangahona | 🇵🇱 pl |
-| acervohentai | 🇧🇷 pt |
-| amuy | 🇧🇷 pt |
 | animexnovel | 🇧🇷 pt |
-| apecomics | 🇧🇷 pt |
-| apenasumafa | 🇧🇷 pt |
 | argosscan | 🇧🇷 pt |
-| arthurscan | 🇧🇷 pt |
 | astratoons | 🇧🇷 pt |
-| atemporal | 🇧🇷 pt |
 | azuretoons | 🇧🇷 pt |
 | bakai | 🇧🇷 pt |
 | blackoutcomics | 🇧🇷 pt |
-| bladetoons | 🇧🇷 pt |
-| borutoexplorer | 🇧🇷 pt |
 | brasilhentai | 🇧🇷 pt |
 | bryaoi | 🇧🇷 pt |
-| cafecomyaoi | 🇧🇷 pt |
-| cerisescans | 🇧🇷 pt |
-| covenscan | 🇧🇷 pt |
 | erosect | 🇧🇷 pt |
-| euphoriascan | 🇧🇷 pt |
 | exhentainetbr | 🇧🇷 pt |
-| fenixproject | 🇧🇷 pt |
-| fleurblanche | 🇧🇷 pt |
-| flowermanga | 🇧🇷 pt |
-| galaxscanlator | 🇧🇷 pt |
 | geasscomics | 🇧🇷 pt |
-| ghostscan | 🇧🇷 pt |
-| hanmokkuscan | 🇧🇷 pt |
-| hentaiseason | 🇧🇷 pt |
-| hentaitokyo | 🇧🇷 pt |
-| hotcabaretscan | 🇧🇷 pt |
 | hqnow | 🇧🇷 pt |
-| huntersscans | 🇧🇷 pt |
-| imperiodabritannia | 🇧🇷 pt |
-| inkapk | 🇧🇷 pt |
-| kamisamaexplorer | 🇧🇷 pt |
 | kuromangas | 🇧🇷 pt |
-| leitordemangas | 🇧🇷 pt |
 | leituramanga | 🇧🇷 pt |
-| ler999 | 🇧🇷 pt |
-| lermangas | 🇧🇷 pt |
-| littletyrant | 🇧🇷 pt |
 | lycantoons | 🇧🇷 pt |
-| maidscan | 🇧🇷 pt |
 | mangadash | 🇧🇷 pt |
 | mangaflix | 🇧🇷 pt |
 | mangalivre | 🇧🇷 pt |
 | mangalivreblog | 🇧🇷 pt |
-| mangalivreto | 🇧🇷 pt |
-| mangaonline | 🇧🇷 pt |
-| mangasbrasuka | 🇧🇷 pt |
-| mangastop | 🇧🇷 pt |
-| mangotoons | 🇧🇷 pt |
 | manhastro | 🇧🇷 pt |
 | mediocretoons | 🇧🇷 pt |
-| minitwoscan | 🇧🇷 pt |
-| montetai | 🇧🇷 pt |
-| mrtenzus | 🇧🇷 pt |
-| mugiwarasoficial | 🇧🇷 pt |
 | muitohentai | 🇧🇷 pt |
 | mundohentai | 🇧🇷 pt |
-| nebulosascan | 🇧🇷 pt |
-| ninjascan | 🇧🇷 pt |
-| nocturnesummer | 🇧🇷 pt |
-| noindexscan | 🇧🇷 pt |
-| origamiorpheans | 🇧🇷 pt |
-| osakascan | 🇧🇷 pt |
-| pinkrosa | 🇧🇷 pt |
-| pinkseaunicorn | 🇧🇷 pt |
-| pizzariascan | 🇧🇷 pt |
 | plumacomics | 🇧🇷 pt |
-| pointzerotoons | 🇧🇷 pt |
-| portalyaoi | 🇧🇷 pt |
 | randomscan | 🇧🇷 pt |
 | remangas | 🇧🇷 pt |
 | revistasequadrinhos | 🇧🇷 pt |
 | rfdragonscan | 🇧🇷 pt |
-| risentoons | 🇧🇷 pt |
 | roxinha | 🇧🇷 pt |
 | saikaiscan | 🇧🇷 pt |
 | shiraiscans | 🇧🇷 pt |
 | spectralscan | 🇧🇷 pt |
 | sssscanlator | 🇧🇷 pt |
-| starlightscan | 🇧🇷 pt |
 | taimumangas | 🇧🇷 pt |
 | taiyo | 🇧🇷 pt |
-| tankouhentai | 🇧🇷 pt |
 | taosect | 🇧🇷 pt |
-| temakimangas | 🇧🇷 pt |
-| tiamanhwa | 🇧🇷 pt |
 | toonbr | 🇧🇷 pt |
-| traducoesdolipe | 🇧🇷 pt |
-| tsundokutraducoes | 🇧🇷 pt |
-| universohentai | 🇧🇷 pt |
-| vegitoons | 🇧🇷 pt |
-| verdinha | 🇧🇷 pt |
 | wolftoon | 🇧🇷 pt |
-| xxxyaoi | 🇧🇷 pt |
-| yaoifanclub | 🇧🇷 pt |
 | yomumangas | 🇧🇷 pt |
 | yugenmangas | 🇧🇷 pt |
-| yuriverso | 🇧🇷 pt |
 | zettahq | 🇧🇷 pt |
 | acomics | 🇷🇺 ru |
-| allhentai | 🇷🇺 ru |
 | astramanga | 🇷🇺 ru |
 | comx | 🇷🇺 ru |
 | desu | 🇷🇺 ru |
-| henchan | 🇷🇺 ru |
-| hentailib | 🇷🇺 ru |
 | inkstory | 🇷🇺 ru |
 | mangabuff | 🇷🇺 ru |
-| mangachan | 🇷🇺 ru |
 | mangahub | 🇷🇺 ru |
-| mangalib | 🇷🇺 ru |
 | mangamen | 🇷🇺 ru |
 | mangapoisk | 🇷🇺 ru |
 | mangashi | 🇷🇺 ru |
-| mintmanga | 🇷🇺 ru |
 | ninegrid | 🇷🇺 ru |
 | nudemoon | 🇷🇺 ru |
-| readmanga | 🇷🇺 ru |
-| rumix | 🇷🇺 ru |
-| seimanga | 🇷🇺 ru |
-| selfmanga | 🇷🇺 ru |
-| senkognito | 🇷🇺 ru |
-| senkuro | 🇷🇺 ru |
 | tomilolib | 🇷🇺 ru |
 | unicomics | 🇷🇺 ru |
-| usagi | 🇷🇺 ru |
 | yagamiproject | 🇷🇺 ru |
-| yaoichan | 🇷🇺 ru |
-| yaoilib | 🇷🇺 ru |
-| cat300 | 🇹🇭 th |
-| catzaa | 🇹🇭 th |
-| doodmanga | 🇹🇭 th |
-| doujinlc | 🇹🇭 th |
-| doujinmoon | 🇹🇭 th |
-| doujinza | 🇹🇭 th |
-| ecchidoujin | 🇹🇭 th |
-| finmanga | 🇹🇭 th |
-| goddoujin | 🇹🇭 th |
-| gomanga | 🇹🇭 th |
-| lamimanga | 🇹🇭 th |
-| makimaaaaa | 🇹🇭 th |
-| manga168 | 🇹🇭 th |
-| mangaisekaithai | 🇹🇭 th |
-| mangakimi | 🇹🇭 th |
-| mangalc | 🇹🇭 th |
-| mangastep | 🇹🇭 th |
-| manhuabug | 🇹🇭 th |
-| manhuakey | 🇹🇭 th |
-| manhuathai | 🇹🇭 th |
-| manhwabreakup | 🇹🇭 th |
 | mikudoujin | 🇹🇭 th |
-| moodtoon | 🇹🇭 th |
 | nekopost | 🇹🇭 th |
 | niceoppai | 🇹🇭 th |
-| ntrmanga | 🇹🇭 th |
 | onemanga | 🇹🇭 th |
 | oremanga | 🇹🇭 th |
-| popsmanga | 🇹🇭 th |
-| reapertrans | 🇹🇭 th |
-| singmanga | 🇹🇭 th |
-| slowmanga | 🇹🇭 th |
-| sodsaime | 🇹🇭 th |
-| speedmanga | 🇹🇭 th |
-| tanukimanga | 🇹🇭 th |
-| toomtammanga | 🇹🇭 th |
-| afroditscans | 🇹🇷 tr |
 | alucardscans | 🇹🇷 tr |
-| amangaplanet | 🇹🇷 tr |
-| anikiga | 🇹🇷 tr |
-| araznovel | 🇹🇷 tr |
-| arcurafansub | 🇹🇷 tr |
-| asurascanstr | 🇹🇷 tr |
-| caprazmanga | 🇹🇷 tr |
-| diamondfansub | 🇹🇷 tr |
-| domalfansub | 🇹🇷 tr |
-| eldermanga | 🇹🇷 tr |
-| eskimangalar | 🇹🇷 tr |
-| gafeland | 🇹🇷 tr |
-| gaiatoon | 🇹🇷 tr |
-| garciamanga | 🇹🇷 tr |
-| ghosthentai | 🇹🇷 tr |
 | golgebahcesi | 🇹🇷 tr |
 | hattorimanga | 🇹🇷 tr |
-| hayalistic | 🇹🇷 tr |
 | holyscans | 🇹🇷 tr |
-| kabusmanga | 🇹🇷 tr |
-| korelimanga | 🇹🇷 tr |
-| koreliscans | 🇹🇷 tr |
-| kuroimanga | 🇹🇷 tr |
-| laviniafansub | 🇹🇷 tr |
-| limonmanga | 🇹🇷 tr |
-| lunascans | 🇹🇷 tr |
 | mangadenizi | 🇹🇷 tr |
 | mangadusleri | 🇹🇷 tr |
-| mangagezgini | 🇹🇷 tr |
-| mangakusu | 🇹🇷 tr |
-| mangasehri | 🇹🇷 tr |
-| mangasehrinet | 🇹🇷 tr |
 | mangaship | 🇹🇷 tr |
-| mangatilkisi | 🇹🇷 tr |
 | mangatr | 🇹🇷 tr |
-| mangawow | 🇹🇷 tr |
-| mangawt | 🇹🇷 tr |
-| mangazure | 🇹🇷 tr |
 | mangitto | 🇹🇷 tr |
-| merlinscans | 🇹🇷 tr |
-| mikrokosmosfansub | 🇹🇷 tr |
-| milasub | 🇹🇷 tr |
 | monomanga | 🇹🇷 tr |
-| moondaisyscans | 🇹🇷 tr |
-| nemesisscans | 🇹🇷 tr |
-| nirvanamanga | 🇹🇷 tr |
-| niverafansub | 🇹🇷 tr |
 | okutoon | 🇹🇷 tr |
-| opiatoon | 🇹🇷 tr |
-| paradoxscans | 🇹🇷 tr |
-| patimanga | 🇹🇷 tr |
-| ragnarscans | 🇹🇷 tr |
-| raindropfansub | 🇹🇷 tr |
-| ruyamanga | 🇹🇷 tr |
-| ruyamanganet | 🇹🇷 tr |
-| sereinscan | 🇹🇷 tr |
-| shadowceviri | 🇹🇷 tr |
-| shijiescans | 🇹🇷 tr |
-| siyahmelek | 🇹🇷 tr |
 | sleptmanga | 🇹🇷 tr |
-| strayfansub | 🇹🇷 tr |
-| summertoon | 🇹🇷 tr |
-| sunsetmanga | 🇹🇷 tr |
-| tarotscans | 🇹🇷 tr |
-| tempestscans | 🇹🇷 tr |
-| tenshimanga | 🇹🇷 tr |
-| tonizutoon | 🇹🇷 tr |
-| tortugaceviri | 🇹🇷 tr |
 | trmanga | 🇹🇷 tr |
-| turkcemangaoku | 🇹🇷 tr |
-| turkcemangaokutr | 🇹🇷 tr |
-| uzaymanga | 🇹🇷 tr |
-| webtoonhatti | 🇹🇷 tr |
-| yaoibar | 🇹🇷 tr |
-| yaoiflix | 🇹🇷 tr |
-| yaoimangaoku | 🇹🇷 tr |
-| zenithscans | 🇹🇷 tr |
 | dgmanga | 🇺🇦 uk |
 | faust | 🇺🇦 uk |
 | honeymanga | 🇺🇦 uk |
 | mangainua | 🇺🇦 uk |
 | zenko | 🇺🇦 uk |
-| doctruyen3q | 🇻🇳 vi |
-| doctruyen5s | 🇻🇳 vi |
-| gantzvn | 🇻🇳 vi |
-| hentaicube | 🇻🇳 vi |
-| hentaivnplus | 🇻🇳 vi |
 | lxhentai | 🇻🇳 vi |
-| mehentai | 🇻🇳 vi |
 | mimi | 🇻🇳 vi |
-| nettruyenco | 🇻🇳 vi |
 | nettruyens | 🇻🇳 vi |
 | nettruyenviet | 🇻🇳 vi |
-| nettruyenx | 🇻🇳 vi |
-| nhattruyen | 🇻🇳 vi |
 | otakusic | 🇻🇳 vi |
 | panomic | 🇻🇳 vi |
-| sayhentai | 🇻🇳 vi |
 | seikowo | 🇻🇳 vi |
 | sinhsieusao | 🇻🇳 vi |
 | soaicacomic | 🇻🇳 vi |
 | teamlanhlung | 🇻🇳 vi |
 | thienthaitruyen | 🇻🇳 vi |
-| toptruyen | 🇻🇳 vi |
 | truyen18 | 🇻🇳 vi |
 | truyenhentai18 | 🇻🇳 vi |
 | truyenhentaivn | 🇻🇳 vi |
 | truyenhentaiz | 🇻🇳 vi |
 | truyenmm | 🇻🇳 vi |
-| truyentranhdammy | 🇻🇳 vi |
-| truyentuoitho | 🇻🇳 vi |
 | truyentvn | 🇻🇳 vi |
-| truyenvn | 🇻🇳 vi |
 | tuitruyen | 🇻🇳 vi |
 | tusachxinhxinh | 🇻🇳 vi |
-| umetruyen | 🇻🇳 vi |
 | vihentai | 🇻🇳 vi |
 | vinahentai | 🇻🇳 vi |
 | yurigarden | 🇻🇳 vi |
 | yurineko | 🇻🇳 vi |
 | zettruyen | 🇻🇳 vi |
-| bakamh | 🇨🇳 zh |
 | baozimanhua | 🇨🇳 zh |
-| baozimhorg | 🇨🇳 zh |
 | bh3 | 🇨🇳 zh |
 | boylove | 🇨🇳 zh |
 | cartoon18 | 🇨🇳 zh |
@@ -1422,32 +694,23 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | creativecomic | 🇨🇳 zh |
 | dm5 | 🇨🇳 zh |
 | dongmanmanhua | 🇨🇳 zh |
-| dumanwu | 🇨🇳 zh |
-| eighteenmanhua | 🇨🇳 zh |
 | favcomic | 🇨🇳 zh |
 | hanime1 | 🇨🇳 zh |
-| hanman18 | 🇨🇳 zh |
 | hentaiclub | 🇨🇳 zh |
 | iqiyi | 🇨🇳 zh |
 | jinmantiantang | 🇨🇳 zh |
-| jiuermanhua | 🇨🇳 zh |
 | kuaikanmanhua | 🇨🇳 zh |
 | mangabz | 🇨🇳 zh |
 | mangaxiaosi | 🇨🇳 zh |
-| manhuadui | 🇨🇳 zh |
 | manhuagui | 🇨🇳 zh |
 | manhuaren | 🇨🇳 zh |
 | manhuashe | 🇨🇳 zh |
-| manhuawu | 🇨🇳 zh |
 | manwa | 🇨🇳 zh |
 | mh1234 | 🇨🇳 zh |
-| miaoqu | 🇨🇳 zh |
 | mycomic | 🇨🇳 zh |
 | noyacg | 🇨🇳 zh |
 | picacomic | 🇨🇳 zh |
 | roumanwu | 🇨🇳 zh |
-| rumanhua | 🇨🇳 zh |
-| sixmh | 🇨🇳 zh |
 | tencentcomics | 🇨🇳 zh |
 | terrahistoricus | 🇨🇳 zh |
 | tongli | 🇨🇳 zh |
