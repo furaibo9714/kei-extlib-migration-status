@@ -26,6 +26,8 @@ jobs:
           python-version: '3.11'
           
       - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_status.py
         
       - name: Commit and Push Changes
