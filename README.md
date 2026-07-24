@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-07-24 09:12:18 UTC*<br>
-*Execution time: 25.36 seconds*
+*Last updated: 2026-07-24 17:15:31 UTC*<br>
+*Execution time: 19.88 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -93,7 +93,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | jcomic | 🇨🇳 zh |
 | komiic | 🇨🇳 zh |
 
-## Active Migration PRs (43)
+## Active Migration PRs (45)
 
 ### Multisrc Themes (6)
 
@@ -106,7 +106,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | pizzareader | <details><summary>10 extensions</summary>hniscantrad (🌐 all)<br>bluesolo (🇫🇷 fr)<br>fmteam (🇫🇷 fr)<br>mangacorporation (🇫🇷 fr)<br>ddtteam (🇮🇹 it)<br>gto (🇮🇹 it)<br>hastateam (🇮🇹 it)<br>lupiteam (🇮🇹 it)<br>phoenixscans (🇮🇹 it)<br>tuttoanimemanga (🇮🇹 it)</details> | 🚧 [#17888](https://github.com/keiyoushi/extensions-source/pull/17888) |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (🇮🇩 id)<br>maidmanga (🇮🇩 id)<br>shirodoujin (🇮🇩 id)</details> | 🚧 [#17883](https://github.com/keiyoushi/extensions-source/pull/17883) |
 
-### Standalone Extensions (14)
+### Standalone Extensions (16)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -118,6 +118,8 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangabuddy | 🇬🇧 en | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
 | vyvymanga | 🇬🇧 en | 🚧 [#17794](https://github.com/keiyoushi/extensions-source/pull/17794) |
 | warforrayuba | 🇬🇧 en | 🚧 [#17791](https://github.com/keiyoushi/extensions-source/pull/17791) |
+| dgmanga | 🇺🇦 uk | 🚧 [#17915](https://github.com/keiyoushi/extensions-source/pull/17915) |
+| faust | 🇺🇦 uk | 🚧 [#17904](https://github.com/keiyoushi/extensions-source/pull/17904) |
 | honeymanga | 🇺🇦 uk | 🚧 [#17886](https://github.com/keiyoushi/extensions-source/pull/17886) |
 | mangainua | 🇺🇦 uk | 🚧 [#17879](https://github.com/keiyoushi/extensions-source/pull/17879) |
 | zenko | 🇺🇦 uk | 🚧 [#17875](https://github.com/keiyoushi/extensions-source/pull/17875) |
@@ -125,7 +127,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mimi | 🇻🇳 vi | 🚧 [#17788](https://github.com/keiyoushi/extensions-source/pull/17788) |
 | vinahentai | 🇻🇳 vi | 🚧 [#17860](https://github.com/keiyoushi/extensions-source/pull/17860) |
 
-## Still Needs Migration from 1.4 (1282)
+## Still Needs Migration from 1.4 (1280)
 
 ### Multisrc Themes (53)
 
@@ -185,7 +187,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | wpcomics | <details><summary>7 extensions</summary>xoxocomics (🇬🇧 en)<br>raw18 (🇯🇵 ja)<br>doctruyen3q (🇻🇳 vi)<br>nettruyenco (🇻🇳 vi)<br>nettruyenx (🇻🇳 vi)<br>nhattruyen (🇻🇳 vi)<br>toptruyen (🇻🇳 vi)</details> |
 | zeistmanga | <details><summary>35 extensions</summary>comicverse (🇸🇦 ar)<br>lonertranslations (🇸🇦 ar)<br>mangaailand (🇸🇦 ar)<br>mangahub (🇸🇦 ar)<br>manhatok (🇸🇦 ar)<br>murim (🇸🇦 ar)<br>orcamanga (🇸🇦 ar)<br>xsanomanga (🇸🇦 ar)<br>yokai (🇸🇦 ar)<br>yurimoonsub (🇸🇦 ar)<br>murimscan (🇬🇧 en)<br>darkroomfansub (🇪🇸 es)<br>datgarscanlation (🇪🇸 es)<br>gistamishouse (🇪🇸 es)<br>sapphirescan (🇪🇸 es)<br>aarlas (🇮🇩 id)<br>inazumanga (🇮🇩 id)<br>lepoytl (🇮🇩 id)<br>mikoroku (🇮🇩 id)<br>ngamenkomik (🇮🇩 id)<br>okyykomik (🇮🇩 id)<br>shiyurasub (🇮🇩 id)<br>tooncubus (🇮🇩 id)<br>ulascomic (🇮🇩 id)<br>apenasumafa (🇧🇷 pt)<br>galaxscanlator (🇧🇷 pt)<br>hanmokkuscan (🇧🇷 pt)<br>ler999 (🇧🇷 pt)<br>osakascan (🇧🇷 pt)<br>pinkrosa (🇧🇷 pt)<br>temakimangas (🇧🇷 pt)<br>traducoesdolipe (🇧🇷 pt)<br>yaoifanclub (🇧🇷 pt)<br>mikrokosmosfansub (🇹🇷 tr)<br>shadowceviri (🇹🇷 tr)</details> |
 
-### Standalone Extensions (546)
+### Standalone Extensions (544)
 
 | Extension | Language |
 | --- | --- |
@@ -677,8 +679,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | okutoon | 🇹🇷 tr |
 | sleptmanga | 🇹🇷 tr |
 | trmanga | 🇹🇷 tr |
-| dgmanga | 🇺🇦 uk |
-| faust | 🇺🇦 uk |
 | nettruyens | 🇻🇳 vi |
 | nettruyenviet | 🇻🇳 vi |
 | otakusic | 🇻🇳 vi |
