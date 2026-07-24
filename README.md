@@ -1,13 +1,13 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-07-24 02:52:06 UTC*<br>
-*Execution time: 22.26 seconds*
+*Last updated: 2026-07-24 09:12:18 UTC*<br>
+*Execution time: 25.36 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
 The data is automatically generated and updated every 6 hours via GitHub Actions.
 
-## Migrated to 1.6 (101)
+## Migrated to 1.6 (103)
 
 ### Multisrc Themes (4)
 
@@ -18,13 +18,15 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | iken | <details><summary>13 extensions</summary>azora (🇸🇦 ar)<br>arvenscans (🇬🇧 en)<br>hijalascans (🇬🇧 en)<br>infernalvoidscans (🇬🇧 en)<br>kaynscans (🇬🇧 en)<br>kenscans (🇬🇧 en)<br>magusmanga (🇬🇧 en)<br>nyxscans (🇬🇧 en)<br>orionscans (🇬🇧 en)<br>renascans (🇬🇧 en)<br>sanascans (🇬🇧 en)<br>vanillascans (🇬🇧 en)<br>eternalmangas (🇪🇸 es)</details> |
 | mangahub | <details><summary>11 extensions</summary>mangafoxfun (🇬🇧 en)<br>mangahereonl (🇬🇧 en)<br>mangahubio (🇬🇧 en)<br>mangakakalotfun (🇬🇧 en)<br>manganel (🇬🇧 en)<br>mangaonlinefun (🇬🇧 en)<br>mangapandaonl (🇬🇧 en)<br>mangareadersite (🇬🇧 en)<br>mangatoday (🇬🇧 en)<br>onemangaco (🇬🇧 en)<br>onemangainfo (🇬🇧 en)</details> |
 
-### Standalone Extensions (68)
+### Standalone Extensions (70)
 
 | Extension | Language |
 | --- | --- |
 | buondua | 🌐 all |
+| deviantart | 🌐 all |
 | hentai3 | 🌐 all |
 | kagane | 🌐 all |
+| mangaplus | 🌐 all |
 | manta | 🌐 all |
 | misskon | 🌐 all |
 | onisaga | 🌐 all |
@@ -93,24 +95,24 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 
 ## Active Migration PRs (43)
 
-### Multisrc Themes (5)
+### Multisrc Themes (6)
 
 | Theme | Extensions | Open PRs |
 | --- | --- | --- |
 | foolslide | <details><summary>7 extensions</summary>foolslidecustomizable (🌐 all)<br>deathtollscans (🇬🇧 en)<br>mangatellers (🇬🇧 en)<br>lolivault (🇪🇸 es)<br>menudofansub (🇪🇸 es)<br>juinjutsuteamreader (🇮🇹 it)<br>nifteam (🇮🇹 it)</details> | 🚧 [#17884](https://github.com/keiyoushi/extensions-source/pull/17884) |
 | madtheme | <details><summary>1 extensions</summary>toonilyme (🇬🇧 en)</details> | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
 | mangabox | <details><summary>3 extensions</summary>mangabat (🇬🇧 en)<br>mangakakalot (🇬🇧 en)<br>manganelo (🇬🇧 en)</details> | 🚧 [#17887](https://github.com/keiyoushi/extensions-source/pull/17887) |
+| mangathemesia | <details><summary>1 extensions</summary>soulscans (🇮🇩 id)</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
 | pizzareader | <details><summary>10 extensions</summary>hniscantrad (🌐 all)<br>bluesolo (🇫🇷 fr)<br>fmteam (🇫🇷 fr)<br>mangacorporation (🇫🇷 fr)<br>ddtteam (🇮🇹 it)<br>gto (🇮🇹 it)<br>hastateam (🇮🇹 it)<br>lupiteam (🇮🇹 it)<br>phoenixscans (🇮🇹 it)<br>tuttoanimemanga (🇮🇹 it)</details> | 🚧 [#17888](https://github.com/keiyoushi/extensions-source/pull/17888) |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (🇮🇩 id)<br>maidmanga (🇮🇩 id)<br>shirodoujin (🇮🇩 id)</details> | 🚧 [#17883](https://github.com/keiyoushi/extensions-source/pull/17883) |
 
-### Standalone Extensions (15)
+### Standalone Extensions (14)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
 | ahottie | 🌐 all | 🚧 [#17880](https://github.com/keiyoushi/extensions-source/pull/17880) |
-| deviantart | 🌐 all | 🚧 [#17861](https://github.com/keiyoushi/extensions-source/pull/17861) |
 | fourkhd | 🌐 all | 🚧 [#17881](https://github.com/keiyoushi/extensions-source/pull/17881) |
-| mangaplus | 🌐 all | 🚧 [#17868](https://github.com/keiyoushi/extensions-source/pull/17868) |
+| mangafire | 🌐 all | 🚧 [#17882](https://github.com/keiyoushi/extensions-source/pull/17882) |
 | simplycosplay | 🌐 all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | madokami | 🇬🇧 en | 🚧 [#17869](https://github.com/keiyoushi/extensions-source/pull/17869) |
 | mangabuddy | 🇬🇧 en | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
@@ -123,7 +125,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mimi | 🇻🇳 vi | 🚧 [#17788](https://github.com/keiyoushi/extensions-source/pull/17788) |
 | vinahentai | 🇻🇳 vi | 🚧 [#17860](https://github.com/keiyoushi/extensions-source/pull/17860) |
 
-## Still Needs Migration from 1.4 (1284)
+## Still Needs Migration from 1.4 (1282)
 
 ### Multisrc Themes (53)
 
@@ -158,7 +160,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangadventure | <details><summary>2 extensions</summary>arcrelight (🇬🇧 en)<br>assortedscans (🇬🇧 en)</details> |
 | mangareader | <details><summary>5 extensions</summary>manganow (🇬🇧 en)<br>jmanga (🇯🇵 ja)<br>klraw (🇯🇵 ja)<br>mangamura (🇯🇵 ja)<br>rawotaku (🇯🇵 ja)</details> |
 | mangataro | <details><summary>2 extensions</summary>mangataro (🌐 all)<br>roliascan (🇬🇧 en)</details> |
-| mangathemesia | <details><summary>145 extensions</summary>miauscan (🌐 all)<br>areamanga (🇸🇦 ar)<br>areascans (🇸🇦 ar)<br>despairmanga (🇸🇦 ar)<br>goonscans (🇸🇦 ar)<br>hijala (🇸🇦 ar)<br>lavascans (🇸🇦 ar)<br>evilproduction (🏳️ cs)<br>akazascans (🇬🇧 en)<br>arenascans (🇬🇧 en)<br>armageddon (🇬🇧 en)<br>athreascans (🇬🇧 en)<br>comicasura (🇬🇧 en)<br>comicsland (🇬🇧 en)<br>crowscans (🇬🇧 en)<br>culturedworks (🇬🇧 en)<br>drakescans (🇬🇧 en)<br>elftoon (🇬🇧 en)<br>erosscans (🇬🇧 en)<br>evascans (🇬🇧 en)<br>galaxymanga (🇬🇧 en)<br>hadesscans (🇬🇧 en)<br>hentaidex (🇬🇧 en)<br>kingofshojo (🇬🇧 en)<br>lagoonscans (🇬🇧 en)<br>madarascans (🇬🇧 en)<br>mangatrend (🇬🇧 en)<br>mangatx (🇬🇧 en)<br>manhuascanus (🇬🇧 en)<br>manhwalover (🇬🇧 en)<br>manhwax (🇬🇧 en)<br>nexcomic (🇬🇧 en)<br>nikatoons (🇬🇧 en)<br>noxenscans (🇬🇧 en)<br>pmscans (🇬🇧 en)<br>ragescans (🇬🇧 en)<br>ravenscans (🇬🇧 en)<br>razure (🇬🇧 en)<br>restscans (🇬🇧 en)<br>rizzcomic (🇬🇧 en)<br>rizzcomicunoriginal (🇬🇧 en)<br>rokaricomics (🇬🇧 en)<br>shojoscans (🇬🇧 en)<br>skymanga (🇬🇧 en)<br>thunderscans (🇬🇧 en)<br>witchscans (🇬🇧 en)<br>asialotus (🇪🇸 es)<br>bloomscans (🇪🇸 es)<br>bokugentranslation (🇪🇸 es)<br>bymichiscan (🇪🇸 es)<br>celestialmoon (🇪🇸 es)<br>cerberusseries (🇪🇸 es)<br>lunapieces (🇪🇸 es)<br>mangaesp (🇪🇸 es)<br>mangashiina (🇪🇸 es)<br>mangatv (🇪🇸 es)<br>nekoscans (🇪🇸 es)<br>novamanhwa (🇪🇸 es)<br>skymangas (🇪🇸 es)<br>uchuujinprojects (🇪🇸 es)<br>kiwiyascans (🇫🇷 fr)<br>lelmanga (🇫🇷 fr)<br>mangasscans (🇫🇷 fr)<br>pornhwafr (🇫🇷 fr)<br>sushiscan (🇫🇷 fr)<br>sushiscanfr (🇫🇷 fr)<br>yaoiscan (🇫🇷 fr)<br>Luvyaa (🇮🇩 id)<br>astralscans (🇮🇩 id)<br>dailysuka (🇮🇩 id)<br>dojingnet (🇮🇩 id)<br>doujinku (🇮🇩 id)<br>izanamiscans (🇮🇩 id)<br>kanzenin (🇮🇩 id)<br>komikav (🇮🇩 id)<br>komikdewasa (🇮🇩 id)<br>komikdewasaart (🇮🇩 id)<br>komikhwa (🇮🇩 id)<br>komikindo (🇮🇩 id)<br>komikindoco (🇮🇩 id)<br>komikstation (🇮🇩 id)<br>komiktap (🇮🇩 id)<br>komikucom (🇮🇩 id)<br>kumapoi (🇮🇩 id)<br>kumopoi (🇮🇩 id)<br>kuromanga (🇮🇩 id)<br>lianscans (🇮🇩 id)<br>mangacan (🇮🇩 id)<br>mangasusu (🇮🇩 id)<br>manhwadesu (🇮🇩 id)<br>manhwaindo (🇮🇩 id)<br>manhwalandmom (🇮🇩 id)<br>manhwalistid (🇮🇩 id)<br>manhwalistorg (🇮🇩 id)<br>mihentai (🇮🇩 id)<br>ngomik (🇮🇩 id)<br>noromax (🇮🇩 id)<br>omicaso (🇮🇩 id)<br>sasangeyou (🇮🇩 id)<br>sektedoujin (🇮🇩 id)<br>shirakami (🇮🇩 id)<br>soulscans (🇮🇩 id)<br>walpurgisscan (🇮🇹 it)<br>atemporal (🇧🇷 pt)<br>mangastop (🇧🇷 pt)<br>origamiorpheans (🇧🇷 pt)<br>pointzerotoons (🇧🇷 pt)<br>starlightscan (🇧🇷 pt)<br>tsundokutraducoes (🇧🇷 pt)<br>doujinmoon (🇹🇭 th)<br>ecchidoujin (🇹🇭 th)<br>finmanga (🇹🇭 th)<br>goddoujin (🇹🇭 th)<br>gomanga (🇹🇭 th)<br>lamimanga (🇹🇭 th)<br>makimaaaaa (🇹🇭 th)<br>manga168 (🇹🇭 th)<br>mangakimi (🇹🇭 th)<br>mangastep (🇹🇭 th)<br>moodtoon (🇹🇭 th)<br>ntrmanga (🇹🇭 th)<br>popsmanga (🇹🇭 th)<br>reapertrans (🇹🇭 th)<br>singmanga (🇹🇭 th)<br>slowmanga (🇹🇭 th)<br>sodsaime (🇹🇭 th)<br>speedmanga (🇹🇭 th)<br>tanukimanga (🇹🇭 th)<br>toomtammanga (🇹🇭 th)<br>amangaplanet (🇹🇷 tr)<br>arcurafansub (🇹🇷 tr)<br>gafeland (🇹🇷 tr)<br>gaiatoon (🇹🇷 tr)<br>koreliscans (🇹🇷 tr)<br>mangakusu (🇹🇷 tr)<br>moondaisyscans (🇹🇷 tr)<br>nemesisscans (🇹🇷 tr)<br>nirvanamanga (🇹🇷 tr)<br>patimanga (🇹🇷 tr)<br>raindropfansub (🇹🇷 tr)<br>sereinscan (🇹🇷 tr)<br>shijiescans (🇹🇷 tr)<br>tarotscans (🇹🇷 tr)<br>tempestscans (🇹🇷 tr)<br>zenithscans (🇹🇷 tr)</details> |
+| mangathemesia | <details><summary>144 extensions</summary>miauscan (🌐 all)<br>areamanga (🇸🇦 ar)<br>areascans (🇸🇦 ar)<br>despairmanga (🇸🇦 ar)<br>goonscans (🇸🇦 ar)<br>hijala (🇸🇦 ar)<br>lavascans (🇸🇦 ar)<br>evilproduction (🏳️ cs)<br>akazascans (🇬🇧 en)<br>arenascans (🇬🇧 en)<br>armageddon (🇬🇧 en)<br>athreascans (🇬🇧 en)<br>comicasura (🇬🇧 en)<br>comicsland (🇬🇧 en)<br>crowscans (🇬🇧 en)<br>culturedworks (🇬🇧 en)<br>drakescans (🇬🇧 en)<br>elftoon (🇬🇧 en)<br>erosscans (🇬🇧 en)<br>evascans (🇬🇧 en)<br>galaxymanga (🇬🇧 en)<br>hadesscans (🇬🇧 en)<br>hentaidex (🇬🇧 en)<br>kingofshojo (🇬🇧 en)<br>lagoonscans (🇬🇧 en)<br>madarascans (🇬🇧 en)<br>mangatrend (🇬🇧 en)<br>mangatx (🇬🇧 en)<br>manhuascanus (🇬🇧 en)<br>manhwalover (🇬🇧 en)<br>manhwax (🇬🇧 en)<br>nexcomic (🇬🇧 en)<br>nikatoons (🇬🇧 en)<br>noxenscans (🇬🇧 en)<br>pmscans (🇬🇧 en)<br>ragescans (🇬🇧 en)<br>ravenscans (🇬🇧 en)<br>razure (🇬🇧 en)<br>restscans (🇬🇧 en)<br>rizzcomic (🇬🇧 en)<br>rizzcomicunoriginal (🇬🇧 en)<br>rokaricomics (🇬🇧 en)<br>shojoscans (🇬🇧 en)<br>skymanga (🇬🇧 en)<br>thunderscans (🇬🇧 en)<br>witchscans (🇬🇧 en)<br>asialotus (🇪🇸 es)<br>bloomscans (🇪🇸 es)<br>bokugentranslation (🇪🇸 es)<br>bymichiscan (🇪🇸 es)<br>celestialmoon (🇪🇸 es)<br>cerberusseries (🇪🇸 es)<br>lunapieces (🇪🇸 es)<br>mangaesp (🇪🇸 es)<br>mangashiina (🇪🇸 es)<br>mangatv (🇪🇸 es)<br>nekoscans (🇪🇸 es)<br>novamanhwa (🇪🇸 es)<br>skymangas (🇪🇸 es)<br>uchuujinprojects (🇪🇸 es)<br>kiwiyascans (🇫🇷 fr)<br>lelmanga (🇫🇷 fr)<br>mangasscans (🇫🇷 fr)<br>pornhwafr (🇫🇷 fr)<br>sushiscan (🇫🇷 fr)<br>sushiscanfr (🇫🇷 fr)<br>yaoiscan (🇫🇷 fr)<br>Luvyaa (🇮🇩 id)<br>astralscans (🇮🇩 id)<br>dailysuka (🇮🇩 id)<br>dojingnet (🇮🇩 id)<br>doujinku (🇮🇩 id)<br>izanamiscans (🇮🇩 id)<br>kanzenin (🇮🇩 id)<br>komikav (🇮🇩 id)<br>komikdewasa (🇮🇩 id)<br>komikdewasaart (🇮🇩 id)<br>komikhwa (🇮🇩 id)<br>komikindo (🇮🇩 id)<br>komikindoco (🇮🇩 id)<br>komikstation (🇮🇩 id)<br>komiktap (🇮🇩 id)<br>komikucom (🇮🇩 id)<br>kumapoi (🇮🇩 id)<br>kumopoi (🇮🇩 id)<br>kuromanga (🇮🇩 id)<br>lianscans (🇮🇩 id)<br>mangacan (🇮🇩 id)<br>mangasusu (🇮🇩 id)<br>manhwadesu (🇮🇩 id)<br>manhwaindo (🇮🇩 id)<br>manhwalandmom (🇮🇩 id)<br>manhwalistid (🇮🇩 id)<br>manhwalistorg (🇮🇩 id)<br>mihentai (🇮🇩 id)<br>ngomik (🇮🇩 id)<br>noromax (🇮🇩 id)<br>omicaso (🇮🇩 id)<br>sasangeyou (🇮🇩 id)<br>sektedoujin (🇮🇩 id)<br>shirakami (🇮🇩 id)<br>walpurgisscan (🇮🇹 it)<br>atemporal (🇧🇷 pt)<br>mangastop (🇧🇷 pt)<br>origamiorpheans (🇧🇷 pt)<br>pointzerotoons (🇧🇷 pt)<br>starlightscan (🇧🇷 pt)<br>tsundokutraducoes (🇧🇷 pt)<br>doujinmoon (🇹🇭 th)<br>ecchidoujin (🇹🇭 th)<br>finmanga (🇹🇭 th)<br>goddoujin (🇹🇭 th)<br>gomanga (🇹🇭 th)<br>lamimanga (🇹🇭 th)<br>makimaaaaa (🇹🇭 th)<br>manga168 (🇹🇭 th)<br>mangakimi (🇹🇭 th)<br>mangastep (🇹🇭 th)<br>moodtoon (🇹🇭 th)<br>ntrmanga (🇹🇭 th)<br>popsmanga (🇹🇭 th)<br>reapertrans (🇹🇭 th)<br>singmanga (🇹🇭 th)<br>slowmanga (🇹🇭 th)<br>sodsaime (🇹🇭 th)<br>speedmanga (🇹🇭 th)<br>tanukimanga (🇹🇭 th)<br>toomtammanga (🇹🇭 th)<br>amangaplanet (🇹🇷 tr)<br>arcurafansub (🇹🇷 tr)<br>gafeland (🇹🇷 tr)<br>gaiatoon (🇹🇷 tr)<br>koreliscans (🇹🇷 tr)<br>mangakusu (🇹🇷 tr)<br>moondaisyscans (🇹🇷 tr)<br>nemesisscans (🇹🇷 tr)<br>nirvanamanga (🇹🇷 tr)<br>patimanga (🇹🇷 tr)<br>raindropfansub (🇹🇷 tr)<br>sereinscan (🇹🇷 tr)<br>shijiescans (🇹🇷 tr)<br>tarotscans (🇹🇷 tr)<br>tempestscans (🇹🇷 tr)<br>zenithscans (🇹🇷 tr)</details> |
 | mangawork | <details><summary>2 extensions</summary>apecomics (🇧🇷 pt)<br>pizzariascan (🇧🇷 pt)</details> |
 | mangaworld | <details><summary>2 extensions</summary>mangaworld (🇮🇹 it)<br>mangaworldadult (🇮🇹 it)</details> |
 | mangotheme | <details><summary>3 extensions</summary>bladetoons (🇧🇷 pt)<br>imperiodabritannia (🇧🇷 pt)<br>mangotoons (🇧🇷 pt)</details> |
@@ -183,7 +185,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | wpcomics | <details><summary>7 extensions</summary>xoxocomics (🇬🇧 en)<br>raw18 (🇯🇵 ja)<br>doctruyen3q (🇻🇳 vi)<br>nettruyenco (🇻🇳 vi)<br>nettruyenx (🇻🇳 vi)<br>nhattruyen (🇻🇳 vi)<br>toptruyen (🇻🇳 vi)</details> |
 | zeistmanga | <details><summary>35 extensions</summary>comicverse (🇸🇦 ar)<br>lonertranslations (🇸🇦 ar)<br>mangaailand (🇸🇦 ar)<br>mangahub (🇸🇦 ar)<br>manhatok (🇸🇦 ar)<br>murim (🇸🇦 ar)<br>orcamanga (🇸🇦 ar)<br>xsanomanga (🇸🇦 ar)<br>yokai (🇸🇦 ar)<br>yurimoonsub (🇸🇦 ar)<br>murimscan (🇬🇧 en)<br>darkroomfansub (🇪🇸 es)<br>datgarscanlation (🇪🇸 es)<br>gistamishouse (🇪🇸 es)<br>sapphirescan (🇪🇸 es)<br>aarlas (🇮🇩 id)<br>inazumanga (🇮🇩 id)<br>lepoytl (🇮🇩 id)<br>mikoroku (🇮🇩 id)<br>ngamenkomik (🇮🇩 id)<br>okyykomik (🇮🇩 id)<br>shiyurasub (🇮🇩 id)<br>tooncubus (🇮🇩 id)<br>ulascomic (🇮🇩 id)<br>apenasumafa (🇧🇷 pt)<br>galaxscanlator (🇧🇷 pt)<br>hanmokkuscan (🇧🇷 pt)<br>ler999 (🇧🇷 pt)<br>osakascan (🇧🇷 pt)<br>pinkrosa (🇧🇷 pt)<br>temakimangas (🇧🇷 pt)<br>traducoesdolipe (🇧🇷 pt)<br>yaoifanclub (🇧🇷 pt)<br>mikrokosmosfansub (🇹🇷 tr)<br>shadowceviri (🇹🇷 tr)</details> |
 
-### Standalone Extensions (547)
+### Standalone Extensions (546)
 
 | Extension | Language |
 | --- | --- |
@@ -225,7 +227,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangadex | 🌐 all |
 | mangadna | 🌐 all |
 | mangadraft | 🌐 all |
-| mangafire | 🌐 all |
 | mangapluscreators | 🌐 all |
 | mangatoon | 🌐 all |
 | mangaup | 🌐 all |
