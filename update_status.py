@@ -201,40 +201,44 @@ def fetch_open_prs():
     return pr_map
 
 LANGUAGE_FLAGS = {
-    "all": "🌐",
-    "ar": "🇸🇦",
-    "bg": "🇧🇬",
-    "ca": "🇦🇩",
-    "de": "🇩🇪",
-    "en": "🇬🇧",
-    "es": "🇪🇸",
-    "fa": "🇮🇷",
-    "fr": "🇫🇷",
-    "he": "🇮🇱",
-    "hi": "🇮🇳",
-    "hu": "🇭🇺",
-    "id": "🇮🇩",
-    "it": "🇮🇹",
-    "ja": "🇯🇵",
-    "ko": "🇰🇷",
-    "nl": "🇳🇱",
-    "pl": "🇵🇱",
-    "pt": "🇧🇷",
-    "pt-BR": "🇧🇷",
-    "ro": "🇷🇴",
-    "ru": "🇷🇺",
-    "th": "🇹🇭",
-    "tl": "🇵🇭",
-    "tr": "🇹🇷",
-    "uk": "🇺🇦",
-    "vi": "🇻🇳",
-    "zh": "🇨🇳",
-    "zh-HK": "🇭🇰",
-    "zh-TW": "🇹🇼",
+    "all": "un",
+    "ar": "sa",
+    "bg": "bg",
+    "ca": "ad",
+    "de": "de",
+    "en": "gb",
+    "es": "es",
+    "fa": "ir",
+    "fr": "fr",
+    "he": "il",
+    "hi": "in",
+    "hu": "hu",
+    "id": "id",
+    "it": "it",
+    "ja": "jp",
+    "ko": "kr",
+    "nl": "nl",
+    "pl": "pl",
+    "pt": "br",
+    "pt-BR": "br",
+    "ro": "ro",
+    "ru": "ru",
+    "th": "th",
+    "tl": "ph",
+    "tr": "tr",
+    "uk": "ua",
+    "vi": "vn",
+    "zh": "cn",
+    "zh-HK": "hk",
+    "zh-TW": "tw",
 }
 
 def get_language_display(lang):
-    flag = LANGUAGE_FLAGS.get(lang, "🏳️")
+    flag_code = LANGUAGE_FLAGS.get(lang)
+    if flag_code:
+        flag = f'<img src="https://flagcdn.com/16x12/{flag_code}.png" alt="{lang} flag">'
+    else:
+        flag = "🏳️"
     return f"{flag} {lang}"
 
 def generate_markdown(migrated, not_migrated, pr_map, exec_time):
@@ -348,7 +352,7 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
     md += "This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.\n\n"
     md += "The data is automatically generated and updated every 6 hours via GitHub Actions.\n\n"
     
-    md += f"## Migrated to 1.6 ({len(migrated)})\n\n"
+    md += f"<details>\n<summary><h2>Migrated to 1.6 ({len(migrated)})</h2></summary>\n\n"
     md += build_multisrc_table(migrated_multisrc, migrated_themed)
         
     if migrated_standalone:
@@ -359,7 +363,9 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
             lang_display = get_language_display(ext['type'])
             md += f"| {ext['name']} | {lang_display} |\n"
             
-    md += f"\n## Active Migration PRs ({len(active_multisrc) + len(active_themed) + len(active_standalone)})\n\n"
+    md += "\n</details>\n"
+            
+    md += f"\n<details open>\n<summary><h2>Active Migration PRs ({len(active_multisrc) + len(active_themed) + len(active_standalone)})</h2></summary>\n\n"
     md += build_multisrc_table(active_multisrc, active_themed, pr_map, show_pr_column=True)
         
     if active_standalone:
@@ -372,7 +378,9 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
             pr_links = " ".join([f"[#{pr['number']}]({pr['url']})" for pr in prs])
             md += f"| {ext['name']} | {lang_display} | 🚧 {pr_links} |\n"
             
-    md += f"\n## Still Needs Migration from 1.4 ({len(inactive_multisrc) + len(inactive_themed) + len(inactive_standalone)})\n\n"
+    md += "\n</details>\n"
+            
+    md += f"\n<details open>\n<summary><h2>Still Needs Migration from 1.4 ({len(inactive_multisrc) + len(inactive_themed) + len(inactive_standalone)})</h2></summary>\n\n"
     md += build_multisrc_table(inactive_multisrc, inactive_themed)
         
     if inactive_standalone:
@@ -382,6 +390,8 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
         for ext in inactive_standalone:
             lang_display = get_language_display(ext['type'])
             md += f"| {ext['name']} | {lang_display} |\n"
+            
+    md += "\n</details>\n"
         
     return md
 
