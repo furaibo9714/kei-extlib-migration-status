@@ -10,6 +10,9 @@ import urllib.request
 import json
 from datetime import datetime, timezone
 
+LIB_VERSION_RE = re.compile(r'libVersion\s*=\s*"([^"]+)"')
+THEME_RE = re.compile(r'theme\s*=\s*"([^"]+)"')
+
 REPO_URL = "https://github.com/keiyoushi/extensions-source.git"
 TEMP_DIR = "temp_repo"
 
@@ -33,7 +36,7 @@ def parse_file(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
     
-    match = re.search(r'libVersion\s*=\s*"([^"]+)"', content)
+    match = LIB_VERSION_RE.search(content)
     if not match:
         return None
         
@@ -52,7 +55,7 @@ def parse_file(file_path):
     else:
         return None
         
-    theme_match = re.search(r'theme\s*=\s*"([^"]+)"', content)
+    theme_match = THEME_RE.search(content)
     theme = theme_match[1] if theme_match else None
         
     entry = {"name": ext_name, "type": ext_type, "theme": theme}
@@ -130,17 +133,11 @@ def _extract_touched_extensions(pr):
             touched_exts.add(("multisrc", parts[1], path))
     return touched_exts
 
-def _process_pull_request(pr, token, pr_map):
+def _process_pr_task(task):
+    pr, touched_exts, token = task
     pr_num = pr["number"]
-    touched_exts = _extract_touched_extensions(pr)
-            
-    if not touched_exts:
-        return
-        
     migrated_paths = verify_pr_migration(pr_num, token)
-    for ext_type, ext_name, path in touched_exts:
-        if path in migrated_paths:
-            pr_map.setdefault((ext_type, ext_name), []).append({"number": pr_num, "url": pr["url"]})
+    return pr_num, pr["url"], touched_exts, migrated_paths
 
 def fetch_open_prs():
     token = os.environ.get("GITHUB_TOKEN")
@@ -174,6 +171,7 @@ def fetch_open_prs():
     pr_map = {}
     url = "https://api.github.com/graphql"
     cursor = None
+    all_prs = []
     
     while True:
         variables = {"cursor": cursor}
@@ -188,8 +186,7 @@ def fetch_open_prs():
                 data = json.loads(response.read().decode())
                 
             prs = data["data"]["repository"]["pullRequests"]
-            for pr in prs["nodes"]:
-                _process_pull_request(pr, token, pr_map)
+            all_prs.extend(prs["nodes"])
             
             if not prs["pageInfo"]["hasNextPage"]:
                 break
@@ -198,6 +195,21 @@ def fetch_open_prs():
             print(f"Error fetching PRs: {e}", file=sys.stderr)
             break
             
+    pr_tasks = []
+    for pr in all_prs:
+        if touched_exts := _extract_touched_extensions(pr):
+            pr_tasks.append((pr, touched_exts, token))
+            
+    if pr_tasks:
+        print(f"Verifying migration for {len(pr_tasks)} PRs...")
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            results = executor.map(_process_pr_task, pr_tasks)
+            
+        for pr_num, pr_url, touched_exts, migrated_paths in results:
+            for ext_type, ext_name, path in touched_exts:
+                if path in migrated_paths:
+                    pr_map.setdefault((ext_type, ext_name), []).append({"number": pr_num, "url": pr_url})
+                
     return pr_map
 
 LANGUAGE_FLAGS = {
