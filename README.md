@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-07-25 15:47:14 UTC*<br>
-*Execution time: 8.64 seconds*
+*Last updated: 2026-07-25 19:54:00 UTC*<br>
+*Execution time: 11.53 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -104,10 +104,10 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | Theme | Extensions | Open PRs |
 | --- | --- | --- |
 | foolslide | <details><summary>7 extensions</summary>foolslidecustomizable (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>deathtollscans (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>mangatellers (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>lolivault (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>menudofansub (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>juinjutsuteamreader (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>nifteam (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)</details> | 🚧 [#17884](https://github.com/keiyoushi/extensions-source/pull/17884) |
-| madara | <details><summary>1 extensions</summary>lumoskomik (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> | 🚧 [#17935](https://github.com/keiyoushi/extensions-source/pull/17935) |
-| madtheme | <details><summary>1 extensions</summary>toonilyme (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
+| madara | <details><summary>1 extensions</summary>lumoskomik (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17935](https://github.com/keiyoushi/extensions-source/pull/17935) |
+| madtheme | <details><summary>1 extensions</summary>toonilyme (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en) *(to mangak)*</details> | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
 | mangabox | <details><summary>3 extensions</summary>mangabat (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>mangakakalot (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>manganelo (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#17887](https://github.com/keiyoushi/extensions-source/pull/17887) |
-| mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
+| mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
 | pizzareader | <details><summary>10 extensions</summary>hniscantrad (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>bluesolo (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>fmteam (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>mangacorporation (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>ddtteam (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>gto (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>hastateam (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>lupiteam (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>phoenixscans (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>tuttoanimemanga (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)</details> | 🚧 [#17888](https://github.com/keiyoushi/extensions-source/pull/17888) |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>maidmanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shirodoujin (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> | 🚧 [#17883](https://github.com/keiyoushi/extensions-source/pull/17883) |
 
@@ -121,7 +121,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | dilar | <img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar | 🚧 [#17936](https://github.com/keiyoushi/extensions-source/pull/17936) |
 | madokami | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#17869](https://github.com/keiyoushi/extensions-source/pull/17869) |
-| mangabuddy | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
+| mangabuddy *(to mangak)* | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#17814](https://github.com/keiyoushi/extensions-source/pull/17814) |
 | vyvymanga | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#17794](https://github.com/keiyoushi/extensions-source/pull/17794) |
 | warforrayuba | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#17791](https://github.com/keiyoushi/extensions-source/pull/17791) |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#17926](https://github.com/keiyoushi/extensions-source/pull/17926) |
