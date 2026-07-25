@@ -103,7 +103,7 @@ def verify_pr_migration(pr_num, token):
     if token:
         req.add_header("Authorization", f"Bearer {token}")
         
-    migrated_files = set()
+    migrated_files = {}
     try:
         with urllib.request.urlopen(req) as response:
             diff_text = response.read().decode('utf-8')
@@ -112,14 +112,24 @@ def verify_pr_migration(pr_num, token):
         for line in diff_text.split('\n'):
             if line.startswith('+++ b/'):
                 current_file = line[6:]
-            elif line.startswith('+') and not line.startswith('+++'):
-                if current_file and current_file.endswith('build.gradle.kts') and re.search(r'libVersion\s*=\s*"1\.6"', line):
-                    migrated_files.add(current_file)
+                if current_file.endswith('build.gradle.kts'):
+                    if current_file not in migrated_files:
+                        migrated_files[current_file] = {"migrated": False, "theme_removed": False, "theme_added": None}
+            elif current_file and current_file.endswith('build.gradle.kts'):
+                if line.startswith('+') and not line.startswith('+++'):
+                    if re.search(r'libVersion\s*=\s*"1\.6"', line):
+                        migrated_files[current_file]["migrated"] = True
+                    theme_match = THEME_RE.search(line)
+                    if theme_match:
+                        migrated_files[current_file]["theme_added"] = theme_match[1]
+                elif line.startswith('-') and not line.startswith('---'):
+                    if THEME_RE.search(line):
+                        migrated_files[current_file]["theme_removed"] = True
                         
     except Exception as e:
         print(f"Error fetching diff for PR {pr_num}: {e}", file=sys.stderr)
         
-    return migrated_files
+    return {k: v for k, v in migrated_files.items() if v["migrated"]}
 
 def _extract_touched_extensions(pr):
     touched_exts = set()
@@ -208,7 +218,13 @@ def fetch_open_prs():
         for pr_num, pr_url, touched_exts, migrated_paths in results:
             for ext_type, ext_name, path in touched_exts:
                 if path in migrated_paths:
-                    pr_map.setdefault((ext_type, ext_name), []).append({"number": pr_num, "url": pr_url})
+                    info = migrated_paths[path]
+                    pr_map.setdefault((ext_type, ext_name), []).append({
+                        "number": pr_num, 
+                        "url": pr_url,
+                        "theme_removed": info.get("theme_removed", False),
+                        "theme_added": info.get("theme_added")
+                    })
                 
     return pr_map
 
@@ -266,22 +282,29 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
     active_standalone = []
     
     for ext in not_migrated:
-        is_active = (ext['type'], ext['name']) in pr_map
+        prs = pr_map.get((ext['type'], ext['name']), [])
+        is_active = bool(prs)
+        
+        ext_copy = ext.copy()
+        if is_active:
+            ext_copy['theme_removed'] = any(pr.get('theme_removed') for pr in prs)
+            ext_copy['theme_added'] = next((pr.get('theme_added') for pr in prs if pr.get('theme_added')), None)
+            
         if ext['type'] == 'multisrc':
             if is_active:
-                active_multisrc.append(ext)
+                active_multisrc.append(ext_copy)
             else:
-                inactive_multisrc.append(ext)
+                inactive_multisrc.append(ext_copy)
         elif ext.get('theme'):
             if is_active:
-                active_themed.append(ext)
+                active_themed.append(ext_copy)
             else:
-                inactive_themed.append(ext)
+                inactive_themed.append(ext_copy)
         else:
             if is_active:
-                active_standalone.append(ext)
+                active_standalone.append(ext_copy)
             else:
-                inactive_standalone.append(ext)
+                inactive_standalone.append(ext_copy)
     
     migrated_standalone.sort(key=lambda x: (x["type"], x["name"]))
     inactive_standalone.sort(key=lambda x: (x["type"], x["name"]))
@@ -338,6 +361,12 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
                 for ext in exts:
                     lang_display = get_language_display(ext['type'])
                     base_str = f"{ext['name']} ({lang_display})"
+                    
+                    if ext.get('theme_removed') and not ext.get('theme_added'):
+                        base_str += " *(to standalone)*"
+                    elif ext.get('theme_added') and ext.get('theme_added') != ext.get('theme'):
+                        base_str += f" *(to {ext['theme_added']})*"
+                        
                     if current_pr_map and not show_pr_column:
                         prs = current_pr_map.get((ext['type'], ext['name']), [])
                         if prs:
@@ -388,7 +417,12 @@ def generate_markdown(migrated, not_migrated, pr_map, exec_time):
             lang_display = get_language_display(ext['type'])
             prs = pr_map.get((ext['type'], ext['name']), [])
             pr_links = " ".join([f"[#{pr['number']}]({pr['url']})" for pr in prs])
-            md += f"| {ext['name']} | {lang_display} | 🚧 {pr_links} |\n"
+            
+            notes = ""
+            if ext.get('theme_added'):
+                notes = f" *(to {ext['theme_added']})*"
+                
+            md += f"| {ext['name']}{notes} | {lang_display} | 🚧 {pr_links} |\n"
             
     md += "\n</details>\n"
             
