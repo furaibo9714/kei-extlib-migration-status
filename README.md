@@ -1,14 +1,14 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-08 19:19:06 UTC*<br>
-*Execution time: 12.50 seconds*
+*Last updated: 2026-08-09 04:47:12 UTC*<br>
+*Execution time: 9.50 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
 The data is automatically generated and updated every 6 hours via GitHub Actions.
 
 <details>
-<summary><h2>Migrated to 1.6 (206)</h2></summary>
+<summary><h2>Migrated to 1.6 (209)</h2></summary>
 
 ### Multisrc Themes (11)
 
@@ -26,7 +26,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | vercomics | <details><summary>2 extensions</summary>chochox (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>vcpvmp (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)</details> |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>maidmanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shirodoujin (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> |
 
-### Standalone Extensions (132)
+### Standalone Extensions (135)
 
 | Extension | Language |
 | --- | --- |
@@ -83,6 +83,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | yaoihot | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | ravenmanga | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | bookwalkerjp | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
+| comicryu | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangafive | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | pixivcomic | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | rawdevartart | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
@@ -121,6 +122,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | luottruyen | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | luvevaland | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | lxhentai | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
+| lxmangaorg | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | medamtruyen | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | meosss | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | meosua | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
@@ -151,6 +153,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | tusachxinhxinh | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | vihentai | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | vinahentai | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
+| vitruyen | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | yurigarden | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | yurineko | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | zettruyen | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
@@ -166,7 +169,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (62)</h2></summary>
+<summary><h2>Active Migration PRs (61)</h2></summary>
 
 ### Multisrc Themes (5)
 
@@ -178,7 +181,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
 
-### Standalone Extensions (5)
+### Standalone Extensions (4)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -186,7 +189,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | kingcomix | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18198](https://github.com/keiyoushi/extensions-source/pull/18198) |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#17926](https://github.com/keiyoushi/extensions-source/pull/17926) |
-| comicryu | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18280](https://github.com/keiyoushi/extensions-source/pull/18280) |
 
 </details>
 
