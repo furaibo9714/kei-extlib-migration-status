@@ -1,14 +1,14 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-09 14:07:26 UTC*<br>
-*Execution time: 9.82 seconds*
+*Last updated: 2026-08-09 19:49:55 UTC*<br>
+*Execution time: 10.99 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
 The data is automatically generated and updated every 6 hours via GitHub Actions.
 
 <details>
-<summary><h2>Migrated to 1.6 (209)</h2></summary>
+<summary><h2>Migrated to 1.6 (210)</h2></summary>
 
 ### Multisrc Themes (11)
 
@@ -26,7 +26,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | vercomics | <details><summary>2 extensions</summary>chochox (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>vcpvmp (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)</details> |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>maidmanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shirodoujin (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> |
 
-### Standalone Extensions (135)
+### Standalone Extensions (136)
 
 | Extension | Language |
 | --- | --- |
@@ -159,6 +159,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | zettruyen | <img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi |
 | bilimanga | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | favcomic | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
+| hanabimanga | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | happymh | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | hcomic | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | jcomic | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
