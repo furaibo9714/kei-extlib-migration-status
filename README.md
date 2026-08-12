@@ -1,14 +1,14 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-12 05:45:53 UTC*<br>
-*Execution time: 11.57 seconds*
+*Last updated: 2026-08-12 09:46:56 UTC*<br>
+*Execution time: 13.13 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
 The data is automatically generated and updated every 6 hours via GitHub Actions.
 
 <details>
-<summary><h2>Migrated to 1.6 (224)</h2></summary>
+<summary><h2>Migrated to 1.6 (226)</h2></summary>
 
 ### Multisrc Themes (13)
 
@@ -28,7 +28,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | vercomics | <details><summary>2 extensions</summary>chochox (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>vcpvmp (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)</details> |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>maidmanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shirodoujin (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> |
 
-### Standalone Extensions (140)
+### Standalone Extensions (142)
 
 | Extension | Language |
 | --- | --- |
@@ -45,6 +45,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | onisaga | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | pawchive | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | webcomics | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
+| xcomic | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | ariatoon | <img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar |
 | dilar | <img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar |
 | eshadow | <img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar |
@@ -69,6 +70,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | hentainexus | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | hentaireadio | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | infinityscans | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
+| kingcomix | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | kmanga | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | madokami | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangadotnet | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
@@ -176,7 +178,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (61)</h2></summary>
+<summary><h2>Active Migration PRs (60)</h2></summary>
 
 ### Multisrc Themes (5)
 
@@ -188,13 +190,12 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
 
-### Standalone Extensions (4)
+### Standalone Extensions (3)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
 | mangadex | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#18124](https://github.com/keiyoushi/extensions-source/pull/18124) |
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
-| kingcomix | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18198](https://github.com/keiyoushi/extensions-source/pull/18198) |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#17926](https://github.com/keiyoushi/extensions-source/pull/17926) |
 
 </details>
