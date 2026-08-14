@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-14 09:42:16 UTC*<br>
-*Execution time: 9.62 seconds*
+*Last updated: 2026-08-14 15:07:36 UTC*<br>
+*Execution time: 8.79 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -179,7 +179,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (59)</h2></summary>
+<summary><h2>Active Migration PRs (60)</h2></summary>
 
 ### Multisrc Themes (5)
 
@@ -191,18 +191,19 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17892](https://github.com/keiyoushi/extensions-source/pull/17892) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
 
-### Standalone Extensions (3)
+### Standalone Extensions (4)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
 | mangadex | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#18124](https://github.com/keiyoushi/extensions-source/pull/18124) |
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#17926](https://github.com/keiyoushi/extensions-source/pull/17926) |
+| desu | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru | 🚧 [#18142](https://github.com/keiyoushi/extensions-source/pull/18142) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (1146)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (1145)</h2></summary>
 
 ### Multisrc Themes (49)
 
@@ -258,7 +259,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | wpcomics | <details><summary>7 extensions</summary>xoxocomics (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>raw18 (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>doctruyen3q (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nettruyenco (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nettruyenx (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nhattruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>toptruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)</details> |
 | zeistmanga | <details><summary>34 extensions</summary>comicverse (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>lonertranslations (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>mangaailand (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>mangahub (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>manhatok (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>murim (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>orcamanga (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>xsanomanga (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>yokai (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>yurimoonsub (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>murimscan (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>darkroomfansub (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>datgarscanlation (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>gistamishouse (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>sapphirescan (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>aarlas (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>inazumanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>lepoytl (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>ngamenkomik (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>okyykomik (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shiyurasub (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>tooncubus (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>ulascomic (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>apenasumafa (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>galaxscanlator (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>hanmokkuscan (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>ler999 (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>osakascan (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>pinkrosa (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>temakimangas (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>traducoesdolipe (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>yaoifanclub (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>mikrokosmosfansub (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>shadowceviri (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (497)
+### Standalone Extensions (496)
 
 | Extension | Language |
 | --- | --- |
@@ -697,7 +698,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | zettahq | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | acomics | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | astramanga | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
-| desu | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | inkstory | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangahub | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangamen | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
