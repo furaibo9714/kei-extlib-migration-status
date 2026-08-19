@@ -1,14 +1,14 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-19 12:42:13 UTC*<br>
-*Execution time: 13.20 seconds*
+*Last updated: 2026-08-19 18:32:58 UTC*<br>
+*Execution time: 12.32 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
 The data is automatically generated and updated every 6 hours via GitHub Actions.
 
 <details>
-<summary><h2>Migrated to 1.6 (240)</h2></summary>
+<summary><h2>Migrated to 1.6 (243)</h2></summary>
 
 ### Multisrc Themes (15)
 
@@ -30,7 +30,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | vercomics | <details><summary>2 extensions</summary>chochox (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>vcpvmp (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)</details> |
 | zmanga | <details><summary>3 extensions</summary>crotpedia (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>maidmanga (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>shirodoujin (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> |
 
-### Standalone Extensions (148)
+### Standalone Extensions (151)
 
 | Extension | Language |
 | --- | --- |
@@ -92,6 +92,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | xomanga | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | yaoihot | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | ravenmanga | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
+| komikcast | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | bookwalkerjp | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | comicryu | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | kisslove | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
@@ -106,7 +107,9 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangaonline | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | mangeek | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | onereader | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
+| remangas | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | slimereadunoriginal | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
+| sssscanlator | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | comx | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | desu | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangabuff | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
@@ -186,7 +189,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (12)</h2></summary>
+<summary><h2>Active Migration PRs (9)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -196,16 +199,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
 
-### Standalone Extensions (6)
+### Standalone Extensions (3)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
 | mangadex | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#18124](https://github.com/keiyoushi/extensions-source/pull/18124) |
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | mantrazscan | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18464](https://github.com/keiyoushi/extensions-source/pull/18464) |
-| komikcast | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18454](https://github.com/keiyoushi/extensions-source/pull/18454) |
-| remangas | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt | 🚧 [#18482](https://github.com/keiyoushi/extensions-source/pull/18482) |
-| sssscanlator | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt | 🚧 [#18483](https://github.com/keiyoushi/extensions-source/pull/18483) |
 
 </details>
 
