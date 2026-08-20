@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-20 06:42:30 UTC*<br>
-*Execution time: 11.36 seconds*
+*Last updated: 2026-08-20 12:44:53 UTC*<br>
+*Execution time: 12.86 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -189,14 +189,15 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (21)</h2></summary>
+<summary><h2>Active Migration PRs (25)</h2></summary>
 
-### Multisrc Themes (5)
+### Multisrc Themes (6)
 
 | Theme | Extensions | Open PRs |
 | --- | --- | --- |
 | bakkin | <details><summary>1 extensions</summary>bakkin (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#18133](https://github.com/keiyoushi/extensions-source/pull/18133) |
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
+| goda | <details><summary>3 extensions</summary>goda (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>baozimhorg (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>eighteenmanhua (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)</details> | 🚧 [#18526](https://github.com/keiyoushi/extensions-source/pull/18526) |
 | mangathemesia | <details><summary>1 extensions</summary>witchscans (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en) *(to standalone)*</details> | 🚧 [#18512](https://github.com/keiyoushi/extensions-source/pull/18512) |
 | wpcomics | <details><summary>7 extensions</summary>xoxocomics (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>raw18 (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>doctruyen3q (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nettruyenco (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nettruyenx (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>nhattruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>toptruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)</details> | 🚧 [#18525](https://github.com/keiyoushi/extensions-source/pull/18525) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
@@ -215,9 +216,9 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (1170)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (1166)</h2></summary>
 
-### Multisrc Themes (48)
+### Multisrc Themes (47)
 
 | Theme | Extensions |
 | --- | --- |
@@ -232,7 +233,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | galleryadults | <details><summary>8 extensions</summary>asmhentai (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>hentaienvy (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>hentaiera (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>hentaifox (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>hentairox (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>hentaizap (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>imhentai (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>nhentaixxx (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)</details> |
 | gattsu | <details><summary>3 extensions</summary>hentaiseason (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>hentaitokyo (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>universohentai (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | gigaviewer | <details><summary>13 extensions</summary>comicborder (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>comicdays (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>comicearthstar (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>comicgardo (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>comicyours (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>comiplex (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>ichicomi (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>kuragebunch (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>magcomi (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>shonenjumpplus (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>sundaywebevery (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>tonarinoyoungjump (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>zenon (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> |
-| goda | <details><summary>3 extensions</summary>goda (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>baozimhorg (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>eighteenmanhua (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)</details> |
 | greenshit | <details><summary>3 extensions</summary>maidscan (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>vegitoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>verdinha (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | guya | <details><summary>4 extensions</summary>magicaltranslators (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>dankefurslesen (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>guya (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>hachirumi (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> |
 | hentaihand | <details><summary>2 extensions</summary>hentaihand (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)<br>nhentaicom (<img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all)</details> |
