@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-08-22 01:07:39 UTC*<br>
-*Execution time: 12.79 seconds*
+*Last updated: 2026-08-22 06:36:39 UTC*<br>
+*Execution time: 10.18 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -197,15 +197,16 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (12)</h2></summary>
+<summary><h2>Active Migration PRs (18)</h2></summary>
 
-### Multisrc Themes (4)
+### Multisrc Themes (5)
 
 | Theme | Extensions | Open PRs |
 | --- | --- | --- |
 | bakkin | <details><summary>1 extensions</summary>bakkin (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#18133](https://github.com/keiyoushi/extensions-source/pull/18133) |
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | mangathemesia | <details><summary>1 extensions</summary>witchscans (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en) *(to standalone)*</details> | 🚧 [#18512](https://github.com/keiyoushi/extensions-source/pull/18512) |
+| manhwaz | <details><summary>5 extensions</summary>manhwahub (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>manhwaz (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>mehentai (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>sayhentai (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>umetruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)</details> | 🚧 [#18553](https://github.com/keiyoushi/extensions-source/pull/18553) |
 | zeistmanga | <details><summary>1 extensions</summary>mikoroku (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#17997](https://github.com/keiyoushi/extensions-source/pull/17997) |
 
 ### Standalone Extensions (5)
@@ -221,9 +222,9 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (1164)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (1158)</h2></summary>
 
-### Multisrc Themes (47)
+### Multisrc Themes (46)
 
 | Theme | Extensions |
 | --- | --- |
@@ -257,7 +258,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangawork | <details><summary>2 extensions</summary>apecomics (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>pizzariascan (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | mangaworld | <details><summary>2 extensions</summary>mangaworld (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)<br>mangaworldadult (<img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it)</details> |
 | mangotheme | <details><summary>3 extensions</summary>bladetoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>imperiodabritannia (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)<br>mangotoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
-| manhwaz | <details><summary>5 extensions</summary>manhwahub (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>manhwaz (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>mehentai (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>sayhentai (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)<br>umetruyen (<img src="https://flagcdn.com/16x12/vn.png" alt="vi flag"> vi)</details> |
 | mccms | <details><summary>3 extensions</summary>manhuawu (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>miaoqu (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>sixmh (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)</details> |
 | mmlook | <details><summary>2 extensions</summary>dumanwu (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>rumanhua (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)</details> |
 | mmrcms | <details><summary>5 extensions</summary>onma (<img src="https://flagcdn.com/16x12/sa.png" alt="ar flag"> ar)<br>utsukushii (<img src="https://flagcdn.com/16x12/bg.png" alt="bg flag"> bg)<br>readcomicsonline (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>mangasin (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>scanvf (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> |
