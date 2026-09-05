@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-05 09:59:05 UTC*<br>
-*Execution time: 11.83 seconds*
+*Last updated: 2026-09-05 14:37:33 UTC*<br>
+*Execution time: 11.80 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -246,7 +246,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (8)</h2></summary>
+<summary><h2>Active Migration PRs (11)</h2></summary>
 
 ### Multisrc Themes (2)
 
@@ -255,18 +255,21 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | bakkin | <details><summary>1 extensions</summary>bakkin (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#18133](https://github.com/keiyoushi/extensions-source/pull/18133) |
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 
-### Standalone Extensions (3)
+### Standalone Extensions (6)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
+| mangaball | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#18854](https://github.com/keiyoushi/extensions-source/pull/18854) |
 | mangadex | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#18124](https://github.com/keiyoushi/extensions-source/pull/18124) |
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
+| hentaikun | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18853](https://github.com/keiyoushi/extensions-source/pull/18853) |
+| mangakatana | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18855](https://github.com/keiyoushi/extensions-source/pull/18855) |
 | tapastic | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18693](https://github.com/keiyoushi/extensions-source/pull/18693) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (892)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (889)</h2></summary>
 
 ### Multisrc Themes (42)
 
@@ -315,7 +318,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (455)
+### Standalone Extensions (452)
 
 | Extension | Language |
 | --- | --- |
@@ -351,7 +354,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | lunaranime | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | luscious | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | manga18me | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
-| mangaball | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | mangadna | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | mangadraft | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
 | mangapluscreators | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all |
@@ -436,7 +438,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | gwtb | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | hentaihere | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | hentaikisu | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
-| hentaikun | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | hentara | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | heytoon | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | hiveworks | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
@@ -464,7 +465,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangademon | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangafreak | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangahen | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
-| mangakatana | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangamirai | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangamob | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
 | mangapill | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en |
