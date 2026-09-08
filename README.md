@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-07 21:08:16 UTC*<br>
-*Execution time: 12.43 seconds*
+*Last updated: 2026-09-08 03:09:40 UTC*<br>
+*Execution time: 14.20 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -250,7 +250,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (16)</h2></summary>
+<summary><h2>Active Migration PRs (17)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -260,7 +260,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | mangathemesia | <details><summary>1 extensions</summary>soulscans (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*</details> | 🚧 [#18881](https://github.com/keiyoushi/extensions-source/pull/18881) |
 
-### Standalone Extensions (10)
+### Standalone Extensions (11)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -273,12 +273,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | tapastic | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18693](https://github.com/keiyoushi/extensions-source/pull/18693) |
 | doujinhentai | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18864](https://github.com/keiyoushi/extensions-source/pull/18864) |
 | ainzscansid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18888](https://github.com/keiyoushi/extensions-source/pull/18888) |
+| westmanga | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18909](https://github.com/keiyoushi/extensions-source/pull/18909) |
 | nudemoon | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru | 🚧 [#18903](https://github.com/keiyoushi/extensions-source/pull/18903) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (881)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (880)</h2></summary>
 
 ### Multisrc Themes (42)
 
@@ -327,7 +328,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (445)
+### Standalone Extensions (444)
 
 | Extension | Language |
 | --- | --- |
@@ -609,7 +610,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | shinigami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | themanga | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| westmanga | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | wurmz | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | animegdrclub | <img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it |
 | digitalteam | <img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it |
