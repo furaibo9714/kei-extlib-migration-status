@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-10 20:26:32 UTC*<br>
-*Execution time: 10.39 seconds*
+*Last updated: 2026-09-11 03:06:49 UTC*<br>
+*Execution time: 9.88 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -275,7 +275,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (22)</h2></summary>
+<summary><h2>Active Migration PRs (30)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -285,7 +285,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | madaralegacy | <details><summary>1 extensions</summary>xxxyaoi (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt) *(to madara)*</details> | 🚧 [#18955](https://github.com/keiyoushi/extensions-source/pull/18955) |
 
-### Standalone Extensions (16)
+### Standalone Extensions (24)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -296,7 +296,14 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | kuramanga | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18947](https://github.com/keiyoushi/extensions-source/pull/18947) |
 | lusttoon | <img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en | 🚧 [#18948](https://github.com/keiyoushi/extensions-source/pull/18948) |
 | akaya | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18919](https://github.com/keiyoushi/extensions-source/pull/18919) |
+| bacakomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18987](https://github.com/keiyoushi/extensions-source/pull/18987) |
+| bacami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18990](https://github.com/keiyoushi/extensions-source/pull/18990) |
+| comicaso | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18991](https://github.com/keiyoushi/extensions-source/pull/18991) |
+| cosmicscansid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18993](https://github.com/keiyoushi/extensions-source/pull/18993) |
+| doujindesu | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18992](https://github.com/keiyoushi/extensions-source/pull/18992) |
+| komikindoid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18988](https://github.com/keiyoushi/extensions-source/pull/18988) |
 | komiknesia | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18949](https://github.com/keiyoushi/extensions-source/pull/18949) |
+| komiku | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18986](https://github.com/keiyoushi/extensions-source/pull/18986) |
 | softkomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18865](https://github.com/keiyoushi/extensions-source/pull/18865) |
 | corocoroonline | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18975](https://github.com/keiyoushi/extensions-source/pull/18975) |
 | kadocomi | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18974](https://github.com/keiyoushi/extensions-source/pull/18974) |
@@ -304,12 +311,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangaone | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18971](https://github.com/keiyoushi/extensions-source/pull/18971) |
 | zebrack | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18979](https://github.com/keiyoushi/extensions-source/pull/18979) |
 | zerosumonline | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18970](https://github.com/keiyoushi/extensions-source/pull/18970) |
+| inkstory *(to inkstory)* | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru | 🚧 [#18985](https://github.com/keiyoushi/extensions-source/pull/18985) |
 | wnacg | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh | 🚧 [#18896](https://github.com/keiyoushi/extensions-source/pull/18896) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (720)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (712)</h2></summary>
 
 ### Multisrc Themes (41)
 
@@ -357,7 +365,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (425)
+### Standalone Extensions (417)
 
 | Extension | Language |
 | --- | --- |
@@ -612,15 +620,8 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | scansfr | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | scantradunion | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | twatt | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
-| bacakomik | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| bacami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| comicaso | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| cosmicscansid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| doujindesu | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | dreamteamsscans | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| komikindoid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | komiknextgonline | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| komiku | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | mangalay | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | narasininja | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | pramramadhan | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
@@ -730,7 +731,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | zettahq | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | acomics | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | astramanga | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
-| inkstory | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangahub | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangamen | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | ninegrid | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
