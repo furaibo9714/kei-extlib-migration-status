@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-11 10:39:01 UTC*<br>
-*Execution time: 12.37 seconds*
+*Last updated: 2026-09-11 15:54:02 UTC*<br>
+*Execution time: 12.98 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -288,7 +288,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (17)</h2></summary>
+<summary><h2>Active Migration PRs (18)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -298,7 +298,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | madaralegacy | <details><summary>1 extensions</summary>xxxyaoi (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt) *(to madara)*</details> | 🚧 [#18955](https://github.com/keiyoushi/extensions-source/pull/18955) |
 
-### Standalone Extensions (11)
+### Standalone Extensions (12)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -312,12 +312,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | komikindoid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18988](https://github.com/keiyoushi/extensions-source/pull/18988) |
 | komiknesia | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18949](https://github.com/keiyoushi/extensions-source/pull/18949) |
 | komiku | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18986](https://github.com/keiyoushi/extensions-source/pull/18986) |
+| piccoma | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#19004](https://github.com/keiyoushi/extensions-source/pull/19004) |
 | zerosumonline | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18970](https://github.com/keiyoushi/extensions-source/pull/18970) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (712)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (711)</h2></summary>
 
 ### Multisrc Themes (41)
 
@@ -365,7 +366,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (417)
+### Standalone Extensions (416)
 
 | Extension | Language |
 | --- | --- |
@@ -677,7 +678,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | nikkangecchan | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | ohtawebcomic | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | pashup | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
-| piccoma | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | rawuwu | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | readerstore | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | senmanga | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
