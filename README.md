@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-12 10:07:51 UTC*<br>
-*Execution time: 10.54 seconds*
+*Last updated: 2026-09-12 15:00:36 UTC*<br>
+*Execution time: 9.62 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -301,7 +301,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (13)</h2></summary>
+<summary><h2>Active Migration PRs (15)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -311,7 +311,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | madaralegacy | <details><summary>1 extensions</summary>zinmanganet (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en) *(to madara)*</details> | 🚧 [#19006](https://github.com/keiyoushi/extensions-source/pull/19006) |
 
-### Standalone Extensions (7)
+### Standalone Extensions (9)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -319,14 +319,16 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | akaya | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18919](https://github.com/keiyoushi/extensions-source/pull/18919) |
 | nexusscanlation | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18958](https://github.com/keiyoushi/extensions-source/pull/18958) |
 | shadowmanga | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18982](https://github.com/keiyoushi/extensions-source/pull/18982) |
+| mangakawaii | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19027](https://github.com/keiyoushi/extensions-source/pull/19027) |
 | comicaso | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18991](https://github.com/keiyoushi/extensions-source/pull/18991) |
 | mangadenizi | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#18984](https://github.com/keiyoushi/extensions-source/pull/18984) |
 | trmanga | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#18983](https://github.com/keiyoushi/extensions-source/pull/18983) |
+| mycomic | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh | 🚧 [#19025](https://github.com/keiyoushi/extensions-source/pull/19025) |
 
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (704)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (702)</h2></summary>
 
 ### Multisrc Themes (41)
 
@@ -374,7 +376,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (411)
+### Standalone Extensions (409)
 
 | Extension | Language |
 | --- | --- |
@@ -613,7 +615,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | lanortrad | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | lelscan | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | lesporoiniens | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
-| mangakawaii | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | mangamoins | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | manganova | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
 | ono | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr |
@@ -778,7 +779,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | manhuagui | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | manhuaren | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | manwa | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
-| mycomic | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | roumanwu | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | tencentcomics | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
 | terrahistoricus | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh |
