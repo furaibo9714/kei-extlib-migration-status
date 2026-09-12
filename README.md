@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-11 20:28:31 UTC*<br>
-*Execution time: 11.90 seconds*
+*Last updated: 2026-09-12 03:13:07 UTC*<br>
+*Execution time: 11.05 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -288,7 +288,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (23)</h2></summary>
+<summary><h2>Active Migration PRs (24)</h2></summary>
 
 ### Multisrc Themes (3)
 
@@ -298,7 +298,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | madaralegacy | <details><summary>2 extensions</summary>holotoon (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id) *(to standalone)*<br>xxxyaoi (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt) *(to madara)*</details> | 🚧 [#18955](https://github.com/keiyoushi/extensions-source/pull/18955) [#19005](https://github.com/keiyoushi/extensions-source/pull/19005) |
 
-### Standalone Extensions (16)
+### Standalone Extensions (17)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -314,6 +314,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | komikindoid | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18988](https://github.com/keiyoushi/extensions-source/pull/18988) |
 | komiknesia | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18949](https://github.com/keiyoushi/extensions-source/pull/18949) |
 | komiku | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18986](https://github.com/keiyoushi/extensions-source/pull/18986) |
+| mangaparkpublisher | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#19016](https://github.com/keiyoushi/extensions-source/pull/19016) |
 | piccoma | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#19004](https://github.com/keiyoushi/extensions-source/pull/19004) |
 | zerosumonline | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja | 🚧 [#18970](https://github.com/keiyoushi/extensions-source/pull/18970) |
 | mangadenizi | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#18984](https://github.com/keiyoushi/extensions-source/pull/18984) |
@@ -322,7 +323,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (706)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (705)</h2></summary>
 
 ### Multisrc Themes (41)
 
@@ -370,7 +371,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (412)
+### Standalone Extensions (411)
 
 | Extension | Language |
 | --- | --- |
@@ -671,7 +672,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangakuro | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangameets | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangano | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
-| mangaparkpublisher | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangasaison | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangatoshokanz | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
 | mangaupjapan | <img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja |
