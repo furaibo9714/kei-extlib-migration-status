@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-13 03:16:49 UTC*<br>
-*Execution time: 10.05 seconds*
+*Last updated: 2026-09-13 11:07:34 UTC*<br>
+*Execution time: 11.29 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -301,17 +301,18 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (19)</h2></summary>
+<summary><h2>Active Migration PRs (23)</h2></summary>
 
-### Multisrc Themes (3)
+### Multisrc Themes (4)
 
 | Theme | Extensions | Open PRs |
 | --- | --- | --- |
 | bakkin | <details><summary>1 extensions</summary>bakkin (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)</details> | 🚧 [#18133](https://github.com/keiyoushi/extensions-source/pull/18133) |
 | clipstudioreader | <details><summary>2 extensions</summary>comicfesta (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)<br>firecross (<img src="https://flagcdn.com/16x12/jp.png" alt="ja flag"> ja)</details> | 🚧 [#18134](https://github.com/keiyoushi/extensions-source/pull/18134) |
 | madaralegacy | <details><summary>1 extensions</summary>zinmanganet (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en) *(to madara)*</details> | 🚧 [#19006](https://github.com/keiyoushi/extensions-source/pull/19006) |
+| scanreader | <details><summary>2 extensions</summary>hentaiscanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>scanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> | 🚧 [#19052](https://github.com/keiyoushi/extensions-source/pull/19052) |
 
-### Standalone Extensions (13)
+### Standalone Extensions (14)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -323,6 +324,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | lesporoiniens | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19031](https://github.com/keiyoushi/extensions-source/pull/19031) |
 | mangakawaii | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19027](https://github.com/keiyoushi/extensions-source/pull/19027) |
 | comicaso | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#18991](https://github.com/keiyoushi/extensions-source/pull/18991) |
+| shinigami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#19053](https://github.com/keiyoushi/extensions-source/pull/19053) |
 | toonkor | <img src="https://flagcdn.com/16x12/kr.png" alt="ko flag"> ko | 🚧 [#19047](https://github.com/keiyoushi/extensions-source/pull/19047) |
 | mangadenizi | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#18984](https://github.com/keiyoushi/extensions-source/pull/18984) |
 | sleptmanga | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#19051](https://github.com/keiyoushi/extensions-source/pull/19051) |
@@ -332,9 +334,9 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (698)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (694)</h2></summary>
 
-### Multisrc Themes (41)
+### Multisrc Themes (40)
 
 | Theme | Extensions |
 | --- | --- |
@@ -373,14 +375,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | multichan | <details><summary>3 extensions</summary>henchan (<img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru)<br>mangachan (<img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru)<br>yaoichan (<img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru)</details> |
 | oceanwp | <details><summary>2 extensions</summary>hentaicrot (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)<br>pixhentai (<img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id)</details> |
 | pam | <details><summary>3 extensions</summary>theblank (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>epsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>softepsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> |
-| scanreader | <details><summary>2 extensions</summary>hentaiscanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>scanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> |
 | senkuro | <details><summary>2 extensions</summary>senkognito (<img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru)<br>senkuro (<img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru)</details> |
 | sinmh | <details><summary>2 extensions</summary>jiuermanhua (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)<br>manhuadui (<img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh)</details> |
 | spicytheme | <details><summary>2 extensions</summary>colorcitoscan (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)<br>spicyscan (<img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es)</details> |
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (405)
+### Standalone Extensions (404)
 
 | Extension | Language |
 | --- | --- |
@@ -637,7 +638,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | pramramadhan | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | riztranslation | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | roseveil | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
-| shinigami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | themanga | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | wurmz | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id |
 | animegdrclub | <img src="https://flagcdn.com/16x12/it.png" alt="it flag"> it |
