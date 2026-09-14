@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-14 17:44:14 UTC*<br>
-*Execution time: 13.19 seconds*
+*Last updated: 2026-09-14 21:30:42 UTC*<br>
+*Execution time: 12.68 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -310,7 +310,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (22)</h2></summary>
+<summary><h2>Active Migration PRs (23)</h2></summary>
 
 ### Multisrc Themes (4)
 
@@ -321,12 +321,13 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | pam | <details><summary>3 extensions</summary>theblank (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>epsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>softepsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> | 🚧 [#19028](https://github.com/keiyoushi/extensions-source/pull/19028) |
 | scanreader | <details><summary>2 extensions</summary>hentaiscanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>scanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> | 🚧 [#19052](https://github.com/keiyoushi/extensions-source/pull/19052) |
 
-### Standalone Extensions (10)
+### Standalone Extensions (11)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
 | simplycosplay | <img src="https://flagcdn.com/16x12/un.png" alt="all flag"> all | 🚧 [#17750](https://github.com/keiyoushi/extensions-source/pull/17750) |
 | akaya | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#18919](https://github.com/keiyoushi/extensions-source/pull/18919) |
+| ragnascans | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es | 🚧 [#19084](https://github.com/keiyoushi/extensions-source/pull/19084) |
 | lanortrad | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19033](https://github.com/keiyoushi/extensions-source/pull/19033) |
 | lesporoiniens | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19031](https://github.com/keiyoushi/extensions-source/pull/19031) |
 | mangakawaii | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19027](https://github.com/keiyoushi/extensions-source/pull/19027) |
@@ -339,7 +340,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (689)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (688)</h2></summary>
 
 ### Multisrc Themes (39)
 
@@ -385,7 +386,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (402)
+### Standalone Extensions (401)
 
 | Extension | Language |
 | --- | --- |
@@ -607,7 +608,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | orckumangas | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | platinumlilyscan | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | plottwistnofansub | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
-| ragnascans | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | submanhwa | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | tenkaiscan | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
 | tumanhwasclub | <img src="https://flagcdn.com/16x12/es.png" alt="es flag"> es |
