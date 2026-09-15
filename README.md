@@ -1,7 +1,7 @@
 # Keiyoushi Extension Migration Status
 
-*Last updated: 2026-09-15 16:18:12 UTC*<br>
-*Execution time: 11.53 seconds*
+*Last updated: 2026-09-15 20:53:06 UTC*<br>
+*Execution time: 13.03 seconds*
 
 This repository automatically tracks the migration of extensions from `libVersion 1.4` to `1.6` in the [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) repository.
 
@@ -310,7 +310,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Active Migration PRs (26)</h2></summary>
+<summary><h2>Active Migration PRs (27)</h2></summary>
 
 ### Multisrc Themes (5)
 
@@ -322,7 +322,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | pam | <details><summary>3 extensions</summary>theblank (<img src="https://flagcdn.com/16x12/gb.png" alt="en flag"> en)<br>epsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>softepsilonscan (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> | 🚧 [#19028](https://github.com/keiyoushi/extensions-source/pull/19028) |
 | scanreader | <details><summary>2 extensions</summary>hentaiscanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)<br>scanreader (<img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr)</details> | 🚧 [#19052](https://github.com/keiyoushi/extensions-source/pull/19052) |
 
-### Standalone Extensions (13)
+### Standalone Extensions (14)
 
 | Extension | Language | Open PRs |
 | --- | --- | --- |
@@ -335,6 +335,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | mangakawaii | <img src="https://flagcdn.com/16x12/fr.png" alt="fr flag"> fr | 🚧 [#19027](https://github.com/keiyoushi/extensions-source/pull/19027) |
 | shinigami | <img src="https://flagcdn.com/16x12/id.png" alt="id flag"> id | 🚧 [#19053](https://github.com/keiyoushi/extensions-source/pull/19053) |
 | toonkor | <img src="https://flagcdn.com/16x12/kr.png" alt="ko flag"> ko | 🚧 [#19047](https://github.com/keiyoushi/extensions-source/pull/19047) |
+| acomics | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru | 🚧 [#19113](https://github.com/keiyoushi/extensions-source/pull/19113) |
 | mangahub | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru | 🚧 [#19076](https://github.com/keiyoushi/extensions-source/pull/19076) |
 | sleptmanga | <img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr | 🚧 [#19051](https://github.com/keiyoushi/extensions-source/pull/19051) |
 | dm5 | <img src="https://flagcdn.com/16x12/cn.png" alt="zh flag"> zh | 🚧 [#19091](https://github.com/keiyoushi/extensions-source/pull/19091) |
@@ -343,7 +344,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 </details>
 
 <details open>
-<summary><h2>Still Needs Migration from 1.4 (685)</h2></summary>
+<summary><h2>Still Needs Migration from 1.4 (684)</h2></summary>
 
 ### Multisrc Themes (39)
 
@@ -389,7 +390,7 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | stalkercms | <details><summary>1 extensions</summary>risentoons (<img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt)</details> |
 | uzaymanga | <details><summary>6 extensions</summary>afroditscans (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eldermanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>eskimangalar (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>limonmanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>tenshimanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)<br>uzaymanga (<img src="https://flagcdn.com/16x12/tr.png" alt="tr flag"> tr)</details> |
 
-### Standalone Extensions (399)
+### Standalone Extensions (398)
 
 | Extension | Language |
 | --- | --- |
@@ -742,7 +743,6 @@ The data is automatically generated and updated every 6 hours via GitHub Actions
 | yomumangas | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | yugenmangas | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
 | zettahq | <img src="https://flagcdn.com/16x12/br.png" alt="pt flag"> pt |
-| acomics | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | astramanga | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | mangamen | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
 | ninegrid | <img src="https://flagcdn.com/16x12/ru.png" alt="ru flag"> ru |
